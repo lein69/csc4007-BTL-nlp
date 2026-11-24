@@ -1,6 +1,7 @@
 # DATA CARD: BỘ DỮ LIỆU TRÍCH XUẤT THỰC THỂ VÀ DỮ KIỆN KINH TẾ (ĐT02)
 
 **Học phần:** CSC4007 – Xử lý ngôn ngữ tự nhiên  
+**Nhóm thực hiện:** Nhóm 4 | **Trường:** Đại học Đại Nam  
 **Nhiệm vụ:** Trích xuất bộ dữ kiện kinh tế: `(indicator, value, unit, period, evidence)` từ tin tức tiếng Việt  
 **Phiên bản:** 1.0.0 (Ngày cập nhật: 2026-11-24)  
 

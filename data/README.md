@@ -1,4 +1,6 @@
 # THƯ MỤC DỮ LIỆU (DATA REPOSITORY)
+**Đề tài 2 (ĐT02):** Trích xuất thực thể và dữ kiện kinh tế từ tin tức tiếng Việt  
+**Nhóm thực hiện:** Nhóm 4 | **Trường:** Đại học Đại Nam  
 
 Thư mục này quản lý toàn bộ dữ liệu 3 tầng (Raw, Processed, Gold) theo quy định của môn học:
 

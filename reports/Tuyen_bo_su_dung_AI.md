@@ -4,9 +4,12 @@
 **Đề tài:** ĐT02 – Trích xuất thực thể và dữ kiện kinh tế từ tin tức tiếng Việt  
 **Giảng viên phụ trách:** ThS. Lê Thị Thùy Trang  
 
+**Nhóm thực hiện:** Nhóm 4  
+**Trường:** Đại học Đại Nam  
+
 ---
 
-Chúng tôi, các thành viên nhóm sinh viên thực hiện đề tài ĐT02, xin tuyên bố:
+Chúng tôi, các thành viên **Nhóm 4** thực hiện đề tài ĐT02, xin tuyên bố:
 
 1. **Về tính độc lập và trung thực học thuật:**
    - Đề tài được xây dựng theo đúng nguyên tắc nghiên cứu thực nghiệm NLP có trách nhiệm và có thể tái lập.

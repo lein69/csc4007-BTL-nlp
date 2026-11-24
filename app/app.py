@@ -45,6 +45,8 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("""
 ### 📌 Thông tin đề tài
 * **Đề tài:** ĐT02 – Trích xuất thực thể và dữ kiện kinh tế từ tin tức tiếng Việt
+* **Nhóm thực hiện:** Nhóm 4
+* **Đơn vị:** Trường Đại học Đại Nam
 * **Nhiệm vụ:** Fact Tuple Extraction `(indicator, value, unit, period, evidence)`
 * **Corpus:** `undertheseanlp/UVN-1`
 * **Test set:** 50 mẫu bị khóa độc lập

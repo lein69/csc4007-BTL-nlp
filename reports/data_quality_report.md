@@ -2,7 +2,7 @@
 
 **Mã đề tài:** ĐT02 – Trích xuất thực thể và dữ kiện kinh tế từ tin tức tiếng Việt  
 **Ngày kiểm toán:** 2026-11-24  
-**Người thực hiện:** Nhóm nghiên cứu CSC4007  
+**Người thực hiện:** Nhóm 4 - CSC4007 (Trường Đại học Đại Nam)  
 
 ---
 

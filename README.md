@@ -1,7 +1,9 @@
 # BÀI TẬP LỚN XỬ LÝ NGÔN NGỮ TỰ NHIÊN (CSC4007)
 ## Đề tài 2 (ĐT02): Trích xuất thực thể và dữ kiện kinh tế từ tin tức tiếng Việt
 
+**Nhóm thực hiện:** Nhóm 4  
 **Giảng viên hướng dẫn:** ThS. Lê Thị Thùy Trang  
+**Trường:** Đại học Đại Nam  
 **Corpus sử dụng:** `undertheseanlp/UVN-1` (Chuyên mục Kinh doanh)  
 **Quy mô dữ liệu:** 200 đoạn văn bản kinh tế (Train: 120, Dev: 30, Test: 50 khóa độc lập)  
 

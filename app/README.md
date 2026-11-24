@@ -1,4 +1,6 @@
 # HƯỚNG DẪN CHẠY ỨNG DỤNG DEMO (APP README)
+**Đề tài 2 (ĐT02):** Trích xuất thực thể và dữ kiện kinh tế từ tin tức tiếng Việt  
+**Nhóm thực hiện:** Nhóm 4 | **Trường:** Đại học Đại Nam  
 
 Ứng dụng trực quan hóa chức năng trích xuất bộ dữ kiện `(indicator, value, unit, period, evidence)` từ tin tức kinh tế tiếng Việt.
 

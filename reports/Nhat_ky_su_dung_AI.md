@@ -2,7 +2,7 @@
 
 **Học phần:** CSC4007 – Xử lý ngôn ngữ tự nhiên  
 **Đề tài:** ĐT02 – Trích xuất thực thể và dữ kiện kinh tế từ tin tức tiếng Việt  
-**Nhóm thực hiện:** Nhóm nghiên cứu sinh viên CSC4007  
+**Nhóm thực hiện:** Nhóm 4 
 
 ---
 
