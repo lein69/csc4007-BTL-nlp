@@ -1,0 +1,16 @@
+{
+  "run_id": "E2",
+  "method_name": "Two-Stage Pipeline: LLM Few-Shot + Schema Validation & Normalization",
+  "description": "Cấu hình cải tiến 2 giai đoạn: Giai đoạn 1 dùng Gemini Flash với prompt Few-Shot xử lý tình huống phức tạp; Giai đoạn 2 kiểm chuẩn Schema, chuẩn hóa đơn vị và lọc trùng",
+  "dataset_version": "1.0.0",
+  "split_used": "test",
+  "model_name": "gemini-3-flash-preview",
+  "parameters": {
+    "temperature": 0.1,
+    "prompt_strategy": "few_shot",
+    "two_stage": true,
+    "schema_validation": true,
+    "unit_normalization": true,
+    "deduplication": true
+  }
+}

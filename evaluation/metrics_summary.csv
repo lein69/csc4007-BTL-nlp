@@ -1,0 +1,4 @@
+﻿run_id,total_gold,total_pred,exact_match_rate,precision,recall,f1_score,numeric_error_rate,period_mismatch_rate,pred_path
+E0,84,84,0.7381,0.6905,0.6905,0.6905,0.1667,0.0952,evaluation/test_predictions_E0.csv
+E1,84,108,0.7262,0.4722,0.6071,0.5312,0.119,0.1429,evaluation/test_predictions_E1.csv
+E2,84,184,0.8929,0.4076,0.8929,0.5597,0.0,0.0952,evaluation/test_predictions_E2.csv

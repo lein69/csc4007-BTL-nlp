@@ -1,0 +1,12 @@
+{
+  "run_id": "E0",
+  "method_name": "Regex + Nearest Neighbor Heuristic",
+  "description": "Baseline trích xuất số và đơn vị bằng regex, ghép với chỉ tiêu và mốc thời gian gần nhất trong câu dựa trên khoảng cách ký tự",
+  "dataset_version": "1.0.0",
+  "split_used": "test",
+  "parameters": {
+    "max_char_distance": 60,
+    "normalize_negative": false,
+    "fallback_period": "unknown"
+  }
+}

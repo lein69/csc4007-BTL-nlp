@@ -1,0 +1,18 @@
+# Environment & Secrets
+.env
+*.env
+api_key.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Weights & Biases local cache/logs
+wandb/

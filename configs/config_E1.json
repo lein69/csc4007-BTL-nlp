@@ -1,0 +1,13 @@
+{
+  "run_id": "E1",
+  "method_name": "LLM Zero-Shot Fact Extraction (Gemini Flash)",
+  "description": "Mô hình ngôn ngữ lớn Gemini Flash ở chế độ Zero-Shot kết hợp Native JSON Schema Output Mode để trích xuất bộ dữ kiện",
+  "dataset_version": "1.0.0",
+  "split_used": "test",
+  "model_name": "gemini-3-flash-preview",
+  "parameters": {
+    "temperature": 0.1,
+    "prompt_strategy": "zero_shot",
+    "response_mime_type": "application/json"
+  }
+}

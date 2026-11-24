@@ -1,0 +1,733 @@
+{
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Chủ tịch Ủy ban châu Âu (EC) Ursula von der Leyen cũng gọi đây là \"mẹ của các thỏa thuận\", khi tạo ra khu vực thương mại tự do cho 2 tỷ người. \"Đây mới chỉ là sự bắt đầu\", bà viết trên mạng xã hội X. Thỏa thuận được kỳ vọng nâng gấp đôi xuất khẩu của EU sang Ấn Độ năm 2032, bằng cách xóa bỏ hoặc giảm thuế nhập khẩu với số hàng hóa chiếm 97% kim ngạch thương mại.\"\"\"\n": [
+    {
+      "indicator": "quy mô dân số khu vực thương mại tự do",
+      "value": 2,
+      "unit": "tỷ người",
+      "period": "unknown",
+      "evidence": "Chủ tịch Ủy ban châu Âu (EC) Ursula von der Leyen cũng gọi đây là \"mẹ của các thỏa thuận\", khi tạo ra khu vực thương mại tự do cho 2 tỷ người."
+    },
+    {
+      "indicator": "mục tiêu tăng trưởng xuất khẩu của EU sang Ấn Độ",
+      "value": 2,
+      "unit": "lần",
+      "period": "năm 2032",
+      "evidence": "Thỏa thuận được kỳ vọng nâng gấp đôi xuất khẩu của EU sang Ấn Độ năm 2032, bằng cách xóa bỏ hoặc giảm thuế nhập khẩu với số hàng hóa chiếm 97% kim ngạch thương mại."
+    },
+    {
+      "indicator": "tỷ lệ hàng hóa được xóa bỏ hoặc giảm thuế nhập khẩu",
+      "value": 97,
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Thỏa thuận được kỳ vọng nâng gấp đôi xuất khẩu của EU sang Ấn Độ năm 2032, bằng cách xóa bỏ hoặc giảm thuế nhập khẩu với số hàng hóa chiếm 97% kim ngạch thương mại."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu. Đổi lại, EU sẽ giảm thuế nhập khẩu với 99,5% hàng nhập khẩu từ Ấn Độ trong vòng 7 năm. Một số mặt hàng sẽ được miễn thuế, gồm thủy sản, đồ da và dệt may, hóa chất, cao su, kim loại cơ bản, đá quý và trang sức, theo thông báo của Bộ Thương mại Ấn Độ.\"\"\"\n": [
+    {
+      "indicator": "tiền thuế tiết kiệm cho các doanh nghiệp châu Âu",
+      "value": 4,
+      "unit": "tỷ euro",
+      "period": "unknown",
+      "evidence": "EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu."
+    },
+    {
+      "indicator": "tiền thuế tiết kiệm cho các doanh nghiệp châu Âu",
+      "value": 4.75,
+      "unit": "tỷ USD",
+      "period": "unknown",
+      "evidence": "EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu."
+    },
+    {
+      "indicator": "tỷ lệ hàng nhập khẩu từ Ấn Độ được EU giảm thuế",
+      "value": -99.5,
+      "unit": "%",
+      "period": "trong vòng 7 năm",
+      "evidence": "Đổi lại, EU sẽ giảm thuế nhập khẩu với 99,5% hàng nhập khẩu từ Ấn Độ trong vòng 7 năm."
+    },
+    {
+      "indicator": "thời gian EU thực hiện giảm thuế nhập khẩu cho hàng Ấn Độ",
+      "value": 7,
+      "unit": "năm",
+      "period": "unknown",
+      "evidence": "Đổi lại, EU sẽ giảm thuế nhập khẩu với 99,5% hàng nhập khẩu từ Ấn Độ trong vòng 7 năm."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Doanh nghiệp chính thức gia nhập thị trường Indonesia từ tháng 2/2024, cung cấp các mẫu xe điện như VF 3, VF 5, VF 6, VF e34 và VF 7. VinFast tuyên bố sẽ đầu tư khoảng 1,2 tỷ USD vào đất nước này Hơn một năm sau, doanh nghiệp đã khánh thành giai đoạn đầu cơ sở lắp ráp ôtô điện tại Indonesia với 50.000 xe sẽ được sản xuất mỗi năm. Công ty này dự kiến tiếp tục nâng công suất nhà máy lên 350.000 xe và hướng đến việc xuất khẩu.\"\"\"\n": [
+    {
+      "indicator": "vốn đầu tư của VinFast vào Indonesia",
+      "value": 1.2,
+      "unit": "tỷ USD",
+      "period": "unknown",
+      "evidence": "VinFast tuyên bố sẽ đầu tư khoảng 1,2 tỷ USD vào đất nước này"
+    },
+    {
+      "indicator": "công suất sản xuất xe điện giai đoạn đầu của VinFast tại Indonesia",
+      "value": 50000,
+      "unit": "xe/năm",
+      "period": "unknown",
+      "evidence": "Hơn một năm sau, doanh nghiệp đã khánh thành giai đoạn đầu cơ sở lắp ráp ôtô điện tại Indonesia với 50.000 xe sẽ được sản xuất mỗi năm."
+    },
+    {
+      "indicator": "công suất nhà máy dự kiến của VinFast tại Indonesia",
+      "value": 350000,
+      "unit": "xe",
+      "period": "unknown",
+      "evidence": "Công ty này dự kiến tiếp tục nâng công suất nhà máy lên 350.000 xe và hướng đến việc xuất khẩu."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Theo phân tích của Barron's và CNBC, các công ty Trung Quốc như Tencent, Alibaba hay ByteDance đang ưu tiên tăng trưởng người dùng và tích hợp AI vào các nền tảng có sẵn hơn là chạy đua vũ trang về phần cứng đơn thuần. Một ví dụ điển hình cho tư duy này là Tencent. Tập đoàn này vừa thông báo sẽ chi tới 1 tỷ nhân dân tệ (khoảng 140 triệu USD) tiền thưởng thông qua chatbot AI Yuanbao trong dịp Tết Nguyên đán.\"\"\"\n": [
+    {
+      "indicator": "tiền thưởng thông qua chatbot AI Yuanbao của Tencent",
+      "value": 1,
+      "unit": "tỷ nhân dân tệ",
+      "period": "dịp Tết Nguyên đán",
+      "evidence": "Tập đoàn này vừa thông báo sẽ chi tới 1 tỷ nhân dân tệ (khoảng 140 triệu USD) tiền thưởng thông qua chatbot AI Yuanbao trong dịp Tết Nguyên đán."
+    },
+    {
+      "indicator": "tiền thưởng thông qua chatbot AI Yuanbao của Tencent",
+      "value": 140,
+      "unit": "triệu USD",
+      "period": "dịp Tết Nguyên đán",
+      "evidence": "Tập đoàn này vừa thông báo sẽ chi tới 1 tỷ nhân dân tệ (khoảng 140 triệu USD) tiền thưởng thông qua chatbot AI Yuanbao trong dịp Tết Nguyên đán."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Các mô hình càng thông minh, càng cần năng lực tính toán khổng lồ để huấn luyện và vận hành. Chính vì vậy, dòng tiền đầu tư vào hạ tầng AI tại Mỹ không hề chững lại mà còn tăng tốc. Theo JPMorgan, các đại gia công nghệ Mỹ đã chi khoảng 340 tỷ USD vốn đầu tư cho AI trong năm ngoái - một con số kỷ lục.\"\"\"\n": [
+    {
+      "indicator": "vốn đầu tư cho AI của các đại gia công nghệ Mỹ",
+      "value": 340,
+      "unit": "tỷ USD",
+      "period": "năm ngoái",
+      "evidence": "Theo JPMorgan, các đại gia công nghệ Mỹ đã chi khoảng 340 tỷ USD vốn đầu tư cho AI trong năm ngoái - một con số kỷ lục."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Công ty này cũng đã thêm lĩnh vực sản xuất động cơ, tua bin với chi tiết là sản xuất động cơ đường sắt (mã 2811) và sản xuất đầu máy xe lửa, xe điện, toa xe và các thiết bị chuyên dùng trên đường ray (mã 3020). Doanh nghiệpđồng thời bổ sung ngành nghề mới là vận tải hành khách bằng đường sắt (mã 4911) và vận tải hàng hóa bằng đường sắt (mã 4912), cùng các hoạt động dịch vụ hỗ trợ khác. Động thái khác của doanh nghiệp này là tăng mạnh vốn và huy động mới hàng nghìn tỷ đồng.\"\"\"\n": [
+    {
+      "indicator": "vốn huy động mới của doanh nghiệp",
+      "value": "hàng nghìn",
+      "unit": "tỷ đồng",
+      "period": "unknown",
+      "evidence": "Động thái khác của doanh nghiệp này là tăng mạnh vốn và huy động mới hàng nghìn tỷ đồng."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Cuối năm 2025, công ty phát hành thành công lô trái phiếu mã THC12501 với tổng giá trị huy động đạt 2.000 tỷ đồng. Nhà sáng lập Thaco, ông Trần Bá Dương (Ảnh: DT). Không chỉ phát hành trái phiếu, theo dữ liệu cập nhật từ Cổng thông tin quốc gia về đăng ký doanh nghiệp, ngày 24/12/2025, tập đoàn của tỷ phú Trần Bá Dương cũng vừa điều chỉnh giấy phép kinh doanh.\"\"\"\n": [
+    {
+      "indicator": "tổng giá trị huy động lô trái phiếu mã THC12501 của công ty",
+      "value": 2000,
+      "unit": "tỷ đồng",
+      "period": "Cuối năm 2025",
+      "evidence": "Cuối năm 2025, công ty phát hành thành công lô trái phiếu mã THC12501 với tổng giá trị huy động đạt 2.000 tỷ đồng."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Và họ đã chứng minh điều đó bằng tiền. Thương vụ mua lại 29% cổ phần Puma từ gia đình tỷ phú Pháp Pinault (chủ sở hữu tập đoàn xa xỉ Kering) là mảnh ghép mới nhất trong chiến lược \"đa thương hiệu\" đầy táo bạo của Anta. Trước Puma, Anta đã gây tiếng vang lớn khi thâu tóm Fila tại Trung Quốc và biến thương hiệu này thành \"gà đẻ trứng vàng\", đóng góp hơn 1/3 doanh thu tập đoàn.\"\"\"\n": [
+    {
+      "indicator": "tỷ lệ cổ phần Puma mà Anta mua lại",
+      "value": 29,
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Thương vụ mua lại 29% cổ phần Puma từ gia đình tỷ phú Pháp Pinault (chủ sở hữu tập đoàn xa xỉ Kering) là mảnh ghép mới nhất trong chiến lược \"đa thương hiệu\" đầy táo bạo của Anta."
+    },
+    {
+      "indicator": "tỷ trọng đóng góp của Fila vào doanh thu tập đoàn Anta",
+      "value": "1/3",
+      "unit": "doanh thu tập đoàn",
+      "period": "unknown",
+      "evidence": "Trước Puma, Anta đã gây tiếng vang lớn khi thâu tóm Fila tại Trung Quốc và biến thương hiệu này thành \"gà đẻ trứng vàng\", đóng góp hơn 1/3 doanh thu tập đoàn."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Theo Financial Times, các nhà phân tích của Jefferies lo ngại về khả năng pha loãng cổ phiếu và áp lực lợi nhuận ngắn hạn đối với Anta. Việc vực dậy một thương hiệu đã \"ngủ quên\" quá lâu như Puma chưa bao giờ là bài toán dễ dàng, đặc biệt khi hình ảnh thương hiệu này đã trở nên quá quen thuộc nhưng thiếu điểm nhấn trong mắt người tiêu dùng. Dẫu vậy, trong bối cảnh làn sóng M&A toàn cầu đang bùng nổ trở lại với giá trị các giao dịch đạt 4.900 tỷ USD (theo Bain & Company), bước đi của Anta cho thấy sự dịch chuyển tất yếu của dòng vốn: chảy từ những nơi hiệu quả thấp sang những tay chơi mới giàu tiềm lực và khát vọng hơn.\"\"\"\n": [
+    {
+      "indicator": "giá trị các giao dịch M&A toàn cầu",
+      "value": 4900,
+      "unit": "tỷ USD",
+      "period": "unknown",
+      "evidence": "Dẫu vậy, trong bối cảnh làn sóng M&A toàn cầu đang bùng nổ trở lại với giá trị các giao dịch đạt 4.900 tỷ USD (theo Bain & Company), bước đi của Anta cho thấy sự dịch chuyển tất yếu của dòng vốn: chảy từ những nơi hiệu quả thấp sang những tay chơi mới giàu tiềm lực và khát vọng hơn."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Bên cạnh đó, nhiệm kỳ của Stephen Miran - Thống đốc do ông Trump bổ nhiệm - sẽ kết thúc vào cuối tuần này. Theo quy định, các Thống đốc Fed có thể tiếp tục làm việc cho đến khi người thay thế chính thức được bổ nhiệm, vì vậy vẫn chưa rõ ông Miran sẽ rời Hội đồng Thống đốc vào thời điểm nào. Ông Miran từng phản đối cả ba đợt cắt giảm lãi suất 0,25 điểm % trong năm ngoái, với quan điểm Fed cần hành động quyết liệt hơn.\"\"\"\n": [
+    {
+      "indicator": "số đợt cắt giảm lãi suất của Fed",
+      "value": 3,
+      "unit": "đợt",
+      "period": "năm ngoái",
+      "evidence": "Ông Miran từng phản đối cả ba đợt cắt giảm lãi suất 0,25 điểm % trong năm ngoái, với quan điểm Fed cần hành động quyết liệt hơn."
+    },
+    {
+      "indicator": "mức cắt giảm lãi suất của Fed",
+      "value": -0.25,
+      "unit": "điểm %",
+      "period": "năm ngoái",
+      "evidence": "Ông Miran từng phản đối cả ba đợt cắt giảm lãi suất 0,25 điểm % trong năm ngoái, với quan điểm Fed cần hành động quyết liệt hơn."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Đến nay, doanh nghiệp sở hữu các công ty con trong lĩnh vực sản xuấtkinh doanhbất động sản, vật liệu xây dựng và hạ tầng tiện ích, như Tổng công ty Viglacera (mã chứng khoán: VGC), Công ty Đầu tư Khu công nghiệp Dầu khí Long Sơn (mã chứng khoán: PXL), Công ty nước sạch Đông Đà (mã chứng khoán: VCW), Công ty FIH (Vietnam), Công ty Titan Hải Phòng. Theo báo cáo tài chính mới nhất tính đến 30/9/2025,doanh nghiệpcó tổng tài sản hơn 41.396 tỷ đồng với vốn chủ sở hữu hơn 18.245 tỷ đồng. Lợi nhuận sau thuế 9 tháng đạt gần 984 tỷ đồng, tăng 91% so với cùng kỳ năm trước.\"\"\"\n": [
+    {
+      "indicator": "tổng tài sản doanh nghiệp",
+      "value": 41396,
+      "unit": "tỷ đồng",
+      "period": "30/9/2025",
+      "evidence": "Theo báo cáo tài chính mới nhất tính đến 30/9/2025, doanh nghiệp có tổng tài sản hơn 41.396 tỷ đồng với vốn chủ sở hữu hơn 18.245 tỷ đồng."
+    },
+    {
+      "indicator": "vốn chủ sở hữu doanh nghiệp",
+      "value": 18245,
+      "unit": "tỷ đồng",
+      "period": "30/9/2025",
+      "evidence": "Theo báo cáo tài chính mới nhất tính đến 30/9/2025, doanh nghiệp có tổng tài sản hơn 41.396 tỷ đồng với vốn chủ sở hữu hơn 18.245 tỷ đồng."
+    },
+    {
+      "indicator": "lợi nhuận sau thuế doanh nghiệp",
+      "value": 984,
+      "unit": "tỷ đồng",
+      "period": "9 tháng đầu năm 2025",
+      "evidence": "Lợi nhuận sau thuế 9 tháng đạt gần 984 tỷ đồng, tăng 91% so với cùng kỳ năm trước."
+    },
+    {
+      "indicator": "tăng trưởng lợi nhuận sau thuế doanh nghiệp",
+      "value": 91,
+      "unit": "%",
+      "period": "9 tháng đầu năm 2025",
+      "evidence": "Lợi nhuận sau thuế 9 tháng đạt gần 984 tỷ đồng, tăng 91% so với cùng kỳ năm trước."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"“Không có anh Dương ngày đó, HAGL đã không còn tồn tại đến hôm nay”, bầu Đức nói. Được biết, HAGL thời đỉnh cao là một tập đoàn đa ngành. Lúc bấy giờ, với khối lượng tài sản lớn, dòng tiền lợi nhuận hàng nghìn tỷ đồng mỗi năm, bầu Đức có biệt hiệu là “đại gia” chơi ngông thứ thiệt: giảm giá 50% bất động sản so với mặt bằng chung, sở hữu máy bay riêng, chi mạnh cho ngành bóng đá… Thời hoàng kim ấy, HAGL Agrico từng được xem là bước đi có tính toán của ông bầu, từ thuỷ điện, bất động sản chuyển hướng sang nông nghiệp.\"\"\"\n": [
+    {
+      "indicator": "dòng tiền lợi nhuận HAGL",
+      "value": "hàng nghìn",
+      "unit": "tỷ đồng",
+      "period": "Lúc bấy giờ",
+      "evidence": "Lúc bấy giờ, với khối lượng tài sản lớn, dòng tiền lợi nhuận hàng nghìn tỷ đồng mỗi năm, bầu Đức có biệt hiệu là “đại gia” chơi ngông thứ thiệt: giảm giá 50% bất động sản so với mặt bằng chung, sở hữu máy bay riêng, chi mạnh cho ngành bóng đá…"
+    },
+    {
+      "indicator": "giá bất động sản HAGL",
+      "value": -50,
+      "unit": "%",
+      "period": "Lúc bấy giờ",
+      "evidence": "Lúc bấy giờ, với khối lượng tài sản lớn, dòng tiền lợi nhuận hàng nghìn tỷ đồng mỗi năm, bầu Đức có biệt hiệu là “đại gia” chơi ngông thứ thiệt: giảm giá 50% bất động sản so với mặt bằng chung, sở hữu máy bay riêng, chi mạnh cho ngành bóng đá…"
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Thực tế, trước cú “sụp đổ” của giá cao su, HAGL Agrico đã có thời kỳ phát triển mạnh. Năm 2012, công ty chỉ lãi 3 tỷ đồng thì sang năm 2013, mức lợi nhuận sau thuế đã tăng đột biến lên 685 tỷ đồng. Con số này tiếp tục tăng lên gần 800 tỷ đồng vào năm 2015, trước khi bầu Đức tuyên bố mất thanh khoản vào năm 2016.\"\"\"\n": [
+    {
+      "indicator": "lợi nhuận HAGL Agrico",
+      "value": 3,
+      "unit": "tỷ đồng",
+      "period": "Năm 2012",
+      "evidence": "Năm 2012, công ty chỉ lãi 3 tỷ đồng"
+    },
+    {
+      "indicator": "lợi nhuận sau thuế HAGL Agrico",
+      "value": 685,
+      "unit": "tỷ đồng",
+      "period": "năm 2013",
+      "evidence": "sang năm 2013, mức lợi nhuận sau thuế đã tăng đột biến lên 685 tỷ đồng."
+    },
+    {
+      "indicator": "lợi nhuận sau thuế HAGL Agrico",
+      "value": 800,
+      "unit": "tỷ đồng",
+      "period": "năm 2015",
+      "evidence": "Con số này tiếp tục tăng lên gần 800 tỷ đồng vào năm 2015"
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Phiên giao dịchchứng khoánngày 28/1, bộ đôi cổ phiếu VCG - ACV ghi nhận diễn biến tích cực hơn so với 2 ngày trước đây. Trong đó, cổ phiếu VCG của Tổng Công ty Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex) không còn tái diễn cảnh giảm sàn của 2 phiên trước đó, đà giảm rút ngắn còn 1,77%. Khối lượng giao dịch trong phiên đạt hơn 16,8 triệu đơn vị.\"\"\"\n": [
+    {
+      "indicator": "đà giảm cổ phiếu VCG",
+      "value": -1.77,
+      "unit": "%",
+      "period": "28/1",
+      "evidence": "Trong đó, cổ phiếu VCG của Tổng Công ty Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex) không còn tái diễn cảnh giảm sàn của 2 phiên trước đó, đà giảm rút ngắn còn 1,77%."
+    },
+    {
+      "indicator": "khối lượng giao dịch cổ phiếu VCG",
+      "value": 16.8,
+      "unit": "triệu đơn vị",
+      "period": "28/1",
+      "evidence": "Khối lượng giao dịch trong phiên đạt hơn 16,8 triệu đơn vị."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Nhóm cổ phiếu vốn hóa lớn VN30 gây áp lực mạnh lên thị trường. Trong đó, cổ phiếu VIC (Vingroup) giảm sàn, còn các mã khác liên quan như VRE (Vincom Retail), VHM (Vinhomes) cũng giảm lần lượt 5,8% và 5,7%. Bộ 3 cổ phiếu này gây tác động tiêu cực nhất đến chỉ số chung.\"\"\"\n": [
+    {
+      "indicator": "giá cổ phiếu VRE (Vincom Retail)",
+      "value": -5.8,
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "còn các mã khác liên quan như VRE (Vincom Retail), VHM (Vinhomes) cũng giảm lần lượt 5,8% và 5,7%."
+    },
+    {
+      "indicator": "giá cổ phiếu VHM (Vinhomes)",
+      "value": -5.7,
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "còn các mã khác liên quan như VRE (Vincom Retail), VHM (Vinhomes) cũng giảm lần lượt 5,8% và 5,7%."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Tại Hội thảo \"Kết nối liên vùng - Động lực phát triển khu thương mại tự do TPHCM\" tổ chức ngày 27/1, các chuyên gia và nhà hoạch định chính sách đã phác thảo nên hình hài của một \"đại dự án\" mang tính lịch sử, đó là khu thương mại tự do (FTZ) Cái Mép Hạ. Siêu dự án 326.000 tỷ đồng Được định vị là mảnh ghép quan trọng nhất trong chiến lược kinh tế hướng biển của siêu đô thị TPHCM (sau sáp nhập), Khu thương mại tự do (FTZ) Cái Mép Hạ đang nổi lên như một siêu dự án với quy mô và tầm nhìn chưa từng có. Theo Viện Nghiên cứu phát triển TPHCM (HIDS), dự án có tổng vốn đầu tư dự kiến là 326.000 tỷ đồng, với lộ trình hoàn thiện đề án năm 2026 và đưa hạ tầng cơ bản vào vận hành cuối năm 2028.\"\"\"\n": [
+    {
+      "indicator": "tổng vốn đầu tư dự kiến khu thương mại tự do Cái Mép Hạ",
+      "value": 326000,
+      "unit": "tỷ đồng",
+      "period": "unknown",
+      "evidence": "Theo Viện Nghiên cứu phát triển TPHCM (HIDS), dự án có tổng vốn đầu tư dự kiến là 326.000 tỷ đồng, với lộ trình hoàn thiện đề án năm 2026 và đưa hạ tầng cơ bản vào vận hành cuối năm 2028."
+    },
+    {
+      "indicator": "năm hoàn thiện đề án khu thương mại tự do Cái Mép Hạ",
+      "value": 2026,
+      "unit": "năm",
+      "period": "năm 2026",
+      "evidence": "Theo Viện Nghiên cứu phát triển TPHCM (HIDS), dự án có tổng vốn đầu tư dự kiến là 326.000 tỷ đồng, với lộ trình hoàn thiện đề án năm 2026 và đưa hạ tầng cơ bản vào vận hành cuối năm 2028."
+    },
+    {
+      "indicator": "năm đưa hạ tầng cơ bản khu thương mại tự do Cái Mép Hạ vào vận hành",
+      "value": 2028,
+      "unit": "năm",
+      "period": "cuối năm 2028",
+      "evidence": "Theo Viện Nghiên cứu phát triển TPHCM (HIDS), dự án có tổng vốn đầu tư dự kiến là 326.000 tỷ đồng, với lộ trình hoàn thiện đề án năm 2026 và đưa hạ tầng cơ bản vào vận hành cuối năm 2028."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Theo các chuyên gia, Cái Mép Hạ sở hữu lợi thế địa kinh tế \"độc nhất vô nhị\". Đây là một trong số ít cảng biển trên thế giới có khả năng đón tàu mẹ trọng tải trên 200.000 tấn, cho phép thiết lập các tuyến hàng hải trực tiếp đi châu Âu và Bắc Mỹ mà không cần trung chuyển. Nằm ở đỉnh của \"tam giác chiến lược\" Thủ Thiêm (Tài chính) - Long Thành (Hàng không) - Cái Mép (Hàng hải), FTZ này nắm giữ chìa khóa để kéo giảm chi phí logistics quốc gia từ 16-18% GDP xuống mức lý tưởng 10%.\"\"\"\n": [
+    {
+      "indicator": "trọng tải tàu mẹ cảng Cái Mép Hạ có thể tiếp nhận",
+      "value": 200000,
+      "unit": "tấn",
+      "period": "unknown",
+      "evidence": "Đây là một trong số ít cảng biển trên thế giới có khả năng đón tàu mẹ trọng tải trên 200.000 tấn, cho phép thiết lập các tuyến hàng hải trực tiếp đi châu Âu và Bắc Mỹ mà không cần trung chuyển."
+    },
+    {
+      "indicator": "chi phí logistics quốc gia",
+      "value": "16-18",
+      "unit": "% GDP",
+      "period": "unknown",
+      "evidence": "Nằm ở đỉnh của \"tam giác chiến lược\" Thủ Thiêm (Tài chính) - Long Thành (Hàng không) - Cái Mép (Hàng hải), FTZ này nắm giữ chìa khóa để kéo giảm chi phí logistics quốc gia từ 16-18% GDP xuống mức lý tưởng 10%."
+    },
+    {
+      "indicator": "chi phí logistics quốc gia mục tiêu",
+      "value": 10,
+      "unit": "% GDP",
+      "period": "unknown",
+      "evidence": "Nằm ở đỉnh của \"tam giác chiến lược\" Thủ Thiêm (Tài chính) - Long Thành (Hàng không) - Cái Mép (Hàng hải), FTZ này nắm giữ chìa khóa để kéo giảm chi phí logistics quốc gia từ 16-18% GDP xuống mức lý tưởng 10%."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Cùng với sự xuất hiện của các hãng ứng dụng gọi xe như Uber, Grab…. Mai Linh mất dần thị phần, bức tranh tài chính ngày càng kém sắc. Năm 2017, Mai Linh bị kiểm toán nghi ngờ không còn hoạt động liên tục khi lỗ lũy kế 795 tỷ đồng và khoản nợ phải trả vượt tài sản ngắn hạn.\"\"\"\n": [
+    {
+      "indicator": "lỗ lũy kế Mai Linh",
+      "value": -795,
+      "unit": "tỷ đồng",
+      "period": "Năm 2017",
+      "evidence": "Năm 2017, Mai Linh bị kiểm toán nghi ngờ không còn hoạt động liên tục khi lỗ lũy kế 795 tỷ đồng và khoản nợ phải trả vượt tài sản ngắn hạn."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Công ty cổ phần Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) công bố báo cáotài chínhhợp nhất quý IV/2025 với khoản lợi nhuận tăng đột biến lên gần 24 tỷ đồng dù cùng kỳ năm trước lỗ gần 6 tỷ đồng. Trong khi đó, doanh thu cả quý chỉ đạt hơn 6 tỷ đồng, giảm 18% so với cùng kỳ năm trước. Động lực tăng trưởng chủ yếu đến từ doanh thu tài chính hơn 48 tỷ đồng, gấp hơn 3 lần cùng kỳ năm trước, nhờ lợi nhuận từ hoạt động đầu tưchứng khoántăng, do thị trường cuối năm có nhiều diễn biến tích cực.\"\"\"\n": [
+    {
+      "indicator": "lợi nhuận NDN",
+      "value": 24,
+      "unit": "tỷ đồng",
+      "period": "quý IV/2025",
+      "evidence": "Công ty cổ phần Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) công bố báo cáotài chínhhợp nhất quý IV/2025 với khoản lợi nhuận tăng đột biến lên gần 24 tỷ đồng dù cùng kỳ năm trước lỗ gần 6 tỷ đồng."
+    },
+    {
+      "indicator": "lợi nhuận NDN",
+      "value": -6,
+      "unit": "tỷ đồng",
+      "period": "quý IV/2024",
+      "evidence": "Công ty cổ phần Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) công bố báo cáotài chínhhợp nhất quý IV/2025 với khoản lợi nhuận tăng đột biến lên gần 24 tỷ đồng dù cùng kỳ năm trước lỗ gần 6 tỷ đồng."
+    },
+    {
+      "indicator": "doanh thu NDN",
+      "value": 6,
+      "unit": "tỷ đồng",
+      "period": "quý IV/2025",
+      "evidence": "Trong khi đó, doanh thu cả quý chỉ đạt hơn 6 tỷ đồng, giảm 18% so với cùng kỳ năm trước."
+    },
+    {
+      "indicator": "tăng trưởng doanh thu NDN",
+      "value": -18,
+      "unit": "%",
+      "period": "quý IV/2025",
+      "evidence": "Trong khi đó, doanh thu cả quý chỉ đạt hơn 6 tỷ đồng, giảm 18% so với cùng kỳ năm trước."
+    },
+    {
+      "indicator": "doanh thu tài chính NDN",
+      "value": 48,
+      "unit": "tỷ đồng",
+      "period": "quý IV/2025",
+      "evidence": "Động lực tăng trưởng chủ yếu đến từ doanh thu tài chính hơn 48 tỷ đồng, gấp hơn 3 lần cùng kỳ năm trước, nhờ lợi nhuận từ hoạt động đầu tưchứng khoántăng, do thị trường cuối năm có nhiều diễn biến tích cực."
+    },
+    {
+      "indicator": "tăng trưởng doanh thu tài chính NDN",
+      "value": 3,
+      "unit": "lần",
+      "period": "quý IV/2025",
+      "evidence": "Động lực tăng trưởng chủ yếu đến từ doanh thu tài chính hơn 48 tỷ đồng, gấp hơn 3 lần cùng kỳ năm trước, nhờ lợi nhuận từ hoạt động đầu tưchứng khoántăng, do thị trường cuối năm có nhiều diễn biến tích cực."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Các cổ phiếu trên sau đó đã rời sàn chứng khoán vào ngày 31/12/2025, phiên giao dịch cuối cùng của cổ phiếu trên hệ thống UpCOM là ngày 30/12/2025. Bất động sản vẫn là mảng chủ lực Về kinh doanh, FLC mới đây đã có ước tính kết quả kinh doanh năm 2025. Theo đó, lợi nhuận sau thuế mảng bất động sản năm 2025 được ước đạt khoảng 635 tỷ đồng, đảo chiều rõ rệt so với khoản lỗ 123 tỷ đồng của năm 2024.\"\"\"\n": [
+    {
+      "indicator": "lợi nhuận sau thuế mảng bất động sản FLC",
+      "value": 635,
+      "unit": "tỷ đồng",
+      "period": "năm 2025",
+      "evidence": "Theo đó, lợi nhuận sau thuế mảng bất động sản năm 2025 được ước đạt khoảng 635 tỷ đồng, đảo chiều rõ rệt so với khoản lỗ 123 tỷ đồng của năm 2024."
+    },
+    {
+      "indicator": "lợi nhuận sau thuế mảng bất động sản FLC",
+      "value": -123,
+      "unit": "tỷ đồng",
+      "period": "năm 2024",
+      "evidence": "Theo đó, lợi nhuận sau thuế mảng bất động sản năm 2025 được ước đạt khoảng 635 tỷ đồng, đảo chiều rõ rệt so với khoản lỗ 123 tỷ đồng của năm 2024."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Chị Nguyễn Thị Tuyết, chủ một công ty hoạt động trong lĩnh vực dịch vụ xuất nhập khẩu, cho biết doanh nghiệp đang gặp vướng mắc trong quá trình thực hiện. Cụ thể, công ty làm thủ tục hải quan và thuê bên thứ 3 vận chuyển cho khách hàng. Khi phát sinh chi phí nâng, hạ container tại cảng vào ban đêm, đối với các lô hàng từ 3 container trở lên thực hiện tại cùng một cảng và trong cùng một ngày, tổng giá trị hóa đơn thường vượt mức 5 triệu đồng.\"\"\"\n": [
+    {
+      "indicator": "số lượng container trong lô hàng của công ty chị Nguyễn Thị Tuyết",
+      "value": 3,
+      "unit": "container",
+      "period": "unknown",
+      "evidence": "đối với các lô hàng từ 3 container trở lên thực hiện tại cùng một cảng và trong cùng một ngày, tổng giá trị hóa đơn thường vượt mức 5 triệu đồng."
+    },
+    {
+      "indicator": "tổng giá trị hóa đơn chi phí nâng, hạ container của công ty chị Nguyễn Thị Tuyết",
+      "value": 5,
+      "unit": "triệu đồng",
+      "period": "unknown",
+      "evidence": "Khi phát sinh chi phí nâng, hạ container tại cảng vào ban đêm, đối với các lô hàng từ 3 container trở lên thực hiện tại cùng một cảng và trong cùng một ngày, tổng giá trị hóa đơn thường vượt mức 5 triệu đồng."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Cổ đông lớn nắm hơn 45% vốn Cổ phiếuVCG của Tổng công ty cổ phần Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex) đã giảm sàn 2 phiên liên tiếp, dư mua giá sàn hàng chục triệu đơn vị. Khối lượng giao dịch cũng tăng đột biến trong thời gian biến động này. Chốt phiên ngày 28/1, cổ phiếu này còn 19.800 đồng/đơn vị.\"\"\"\n": [
+    {
+      "indicator": "tỷ lệ sở hữu của cổ đông lớn tại Vinaconex (VCG)",
+      "value": 45,
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Cổ đông lớn nắm hơn 45% vốn Cổ phiếuVCG của Tổng công ty cổ phần Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex)"
+    },
+    {
+      "indicator": "số phiên giảm sàn liên tiếp của cổ phiếu VCG",
+      "value": -2,
+      "unit": "phiên",
+      "period": "unknown",
+      "evidence": "Cổ phiếuVCG của Tổng công ty cổ phần Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex) đã giảm sàn 2 phiên liên tiếp"
+    },
+    {
+      "indicator": "giá đóng cửa cổ phiếu VCG",
+      "value": 19800,
+      "unit": "đồng/đơn vị",
+      "period": "28/1",
+      "evidence": "Chốt phiên ngày 28/1, cổ phiếu này còn 19.800 đồng/đơn vị."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Tuy nhiên, giới trẻ thường không mặn mà với 2 chữ \"kỷ luật\" này. Theo Business Insider, Buffett từng phân tích kỹ hơn về mối nguy của đòn bẩy tài chính. \"Lãi suất thẻ tín dụng rất cao, có lúc 18% hay lên tới 20%.\"\"\"\n": [
+    {
+      "indicator": "lãi suất thẻ tín dụng",
+      "value": 18,
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Lãi suất thẻ tín dụng rất cao, có lúc 18% hay lên tới 20%."
+    },
+    {
+      "indicator": "lãi suất thẻ tín dụng",
+      "value": 20,
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Lãi suất thẻ tín dụng rất cao, có lúc 18% hay lên tới 20%."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Khi Mỹ bùng nổ dầu đá phiến (dầu nhẹ), các nhà máy này không thể chuyển đổi công nghệ trong một sớm một chiều. Theo AFPM, 70% công suất lọc dầu của Mỹ hoạt động hiệu quả nhất với dầu nặng. Nếu ép chúng chạy bằng dầu nhẹ trong nước, hiệu suất giảm, biên lợi nhuận bốc hơi.\"\"\"\n": [
+    {
+      "indicator": "công suất lọc dầu của Mỹ hoạt động hiệu quả nhất với dầu nặng",
+      "value": 70,
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Theo AFPM, 70% công suất lọc dầu của Mỹ hoạt động hiệu quả nhất với dầu nặng."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Bên cạnh taxi, tập đoàn cũng dần phát triển thành hệ sinh thái đa ngành với du lịch - lữ hành, xây dựng, đào tạo,quảng cáotruyền thống, công nghệ thông tin, tài chính, bất động sản… Mai Linh từng là tên tuổi lớn trong ngành taxi, chia thị phần thống trị thị trường toàn quốc cùng với Vinasun. Ghi nhận báo cáotài chínhhàng năm, Mai Linh thời điểm hoàng kim thu về hàng nghìn tỷ đồng doanh thu. Dù vậy, từ năm 2008 công ty liên tục thua lỗ.\"\"\"\n": [],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Không chỉ dừng lại ở trục cao tốc Bắc - Nam,doanh nghiệpcòn tham gia nhiều dự án giao thông quan trọng khác như Vành đai 3 TPHCM, cao tốc Biên Hòa - Vũng Tàu, cao tốc Tuyên Quang - Hà Giang, Cao tốc La Sơn - Hòa Liên; Cao tốc TPHCM - Long Thành; dự án Vành đai 4 vùng Thủ đô... Trong lĩnh vực bất động sản, tổng công ty được Bộ Xây dựng lựa chọn là một trong 18 doanh nghiệp tham gia triển khai các dự ánnhà ở xã hộitrên cả nước. Về kết quả kinh doanh, 9 tháng đầu năm 2025, Vinaconex đạt 3.782 tỷ đồng lợi nhuận sau thuế, gấp gần 5 lần cùng kỳ, vượt hơn 3 lần kế hoạch năm nhờ quý III ghi nhận đột biến đến từ việc chuyển nhượng khoản đầu tư tại công ty con.\"\"\"\n": [
+    {
+      "indicator": "lợi nhuận sau thuế",
+      "value": "3.782",
+      "unit": "tỷ đồng",
+      "period": "năm 2025",
+      "evidence": "Về kết quả kinh doanh, 9 tháng đầu năm 2025, Vinaconex đạt 3.782 tỷ đồng lợi nhuận sau thuế, gấp gần 5 lần cùng kỳ, vượt hơn 3 lần kế hoạch năm nhờ quý III ghi nhận đột biến đến từ việc chuyển nhượng khoản đầu tư tại công ty con.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Diễn biến giá nhập khẩu từ Singapore cho thấy giá xăng dầu trong nước nhiều khả năng sẽ bật tăng. Lãnh đạo mộtdoanh nghiệpđầu mối phía Nam cho biết, sau kỳ điều hành trước, giá dầu thô thế giới tăng mạnh. Ngày 27/1, giá nhập khẩu xăng RON 95 tại Singapore ở mức 72,35 USD/thùng, xăng RON 92 ở mức 70,21 USD/thùng, tăng khoảng 1 USD/thùng so với 7 ngày trước.\"\"\"\n": [
+    {
+      "indicator": "nhập khẩu",
+      "value": "72.35",
+      "unit": "USD",
+      "period": "unknown",
+      "evidence": "Ngày 27/1, giá nhập khẩu xăng RON 95 tại Singapore ở mức 72,35 USD/thùng, xăng RON 92 ở mức 70,21 USD/thùng, tăng khoảng 1 USD/thùng so với 7 ngày trước.\"\"\""
+    },
+    {
+      "indicator": "nhập khẩu",
+      "value": "70.21",
+      "unit": "USD",
+      "period": "unknown",
+      "evidence": "Ngày 27/1, giá nhập khẩu xăng RON 95 tại Singapore ở mức 72,35 USD/thùng, xăng RON 92 ở mức 70,21 USD/thùng, tăng khoảng 1 USD/thùng so với 7 ngày trước.\"\"\""
+    },
+    {
+      "indicator": "nhập khẩu",
+      "value": "1",
+      "unit": "USD",
+      "period": "unknown",
+      "evidence": "Ngày 27/1, giá nhập khẩu xăng RON 95 tại Singapore ở mức 72,35 USD/thùng, xăng RON 92 ở mức 70,21 USD/thùng, tăng khoảng 1 USD/thùng so với 7 ngày trước.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Ở lần điều chỉnh gần nhất ngày 22/1, giá xăng E5 RON 92 giảm 90 đồng/lít còn 18.280 đồng/lít; xăng RON 95 giảm 80 đồng/lít, còn 18.630 đồng/lít. Dầu diesel tăng 420 đồng/lít lên 17.700 đồng/lít, dầu hỏa tăng 260 đồng/lít lên 17.950 đồng/lít; dầu mazut tăng 470 đồng/lít lên 13.870 đồng/kg. Trên thị trường quốc tế, ngày 27/1,giá dầutăng khoảng 3% do bão mùa đông làm gián đoạn khai thác, khiến sản lượng dầu thô và hoạt động xuất khẩu từ vùng Vịnh Mexico của Mỹ gần như tê liệt vào cuối tuần, theo Reuters.\"\"\"\n": [
+    {
+      "indicator": "giá dầu",
+      "value": "3",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Trên thị trường quốc tế, ngày 27/1,giá dầutăng khoảng 3% do bão mùa đông làm gián đoạn khai thác, khiến sản lượng dầu thô và hoạt động xuất khẩu từ vùng Vịnh Mexico của Mỹ gần như tê liệt vào cuối tuần, theo Reuters.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Câu chuyện về lãi suất năm 2026 giờ đây không đơn thuần là các chỉ số kinh tế, mà là một bàn cờ thế phức tạp với những nước đi có thể thay đổi hoàn toàn cục diệntài chínhtoàn cầu. Khi lãi suất vẫn ở gần mức cao nhất trong hơn một thập kỷ, câu hỏi lớn nhất là: liệu Fed sẽ còn nới lỏng bao nhiêu nữa trong năm nay? Ẩn số từ những lá phiếu \"quyền lực\" Theo phân tích mới nhất từ Reuters và Bankrate, dù Fed đã mạnh tay cắt giảm tổng cộng 1,75 điểm phần trăm kể từ tháng 9/2024, đưa lãi suất điều hành về mức 3,62%, nhưng con đường phía trước lại đầy sương mù.\"\"\"\n": [
+    {
+      "indicator": "lãi suất",
+      "value": "-1.75",
+      "unit": "điểm phần trăm",
+      "period": "tháng 9/2024",
+      "evidence": "Ẩn số từ những lá phiếu \"quyền lực\" Theo phân tích mới nhất từ Reuters và Bankrate, dù Fed đã mạnh tay cắt giảm tổng cộng 1,75 điểm phần trăm kể từ tháng 9/2024, đưa lãi suất điều hành về mức 3,62%, nhưng con đường phía trước lại đầy sương mù.\"\"\""
+    },
+    {
+      "indicator": "lãi suất",
+      "value": "3.62",
+      "unit": "%",
+      "period": "tháng 9/2024",
+      "evidence": "Ẩn số từ những lá phiếu \"quyền lực\" Theo phân tích mới nhất từ Reuters và Bankrate, dù Fed đã mạnh tay cắt giảm tổng cộng 1,75 điểm phần trăm kể từ tháng 9/2024, đưa lãi suất điều hành về mức 3,62%, nhưng con đường phía trước lại đầy sương mù.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Dự báo lãi suất năm 2026 đang chia rẽ sâu sắc giới quan sát. Trong khi Bankrate kỳ vọng sẽ có thêm ba đợt cắt giảm với tổng mức 0,75 điểm phần trăm, đưa lãi suất về gần mức trước đại dịch, thìthị trường tài chínhvà chính nội bộ Fed lại tỏ ra thận trọng hơn nhiều. Sự thận trọng này đến từ một thực tế: Cơ cấu nhân sự của Ủy ban Thị trường Mở Liên bang (FOMC) - cơ quan quyết định lãi suất - đang thay đổi đáng kể trong năm nay.\"\"\"\n": [
+    {
+      "indicator": "lãi suất",
+      "value": "-0.75",
+      "unit": "điểm phần trăm",
+      "period": "unknown",
+      "evidence": "Trong khi Bankrate kỳ vọng sẽ có thêm ba đợt cắt giảm với tổng mức 0,75 điểm phần trăm, đưa lãi suất về gần mức trước đại dịch, thìthị trường tài chínhvà chính nội bộ Fed lại tỏ ra thận trọng hơn nhiều."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Kinh tế tầm thấp được kỳ vọng sẽ mang lại lợi ích thiết thực trong đời sống xã hội. Năm 2024, khoảng 2,7 triệu bưu phẩm tại Trung Quốc được chuyển phát bằng UAV. Quy mô thị trường logistics tầm thấp tăng từ 27,18 tỷ nhân dân tệ (2020) lên 58,18 tỷ nhân dân tệ (2023), tốc độ tăng trưởng đạt 37,41%.\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "37.41",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Quy mô thị trường logistics tầm thấp tăng từ 27,18 tỷ nhân dân tệ (2020) lên 58,18 tỷ nhân dân tệ (2023), tốc độ tăng trưởng đạt 37,41%.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Chiến lược cho nhà đầu tư \"tay mơ\" Warren Buffett là một thiên tài chọn cổ phiếu, nhưng ông không khuyên người thường làm như mình. Thay vào đó, ông dành lời khuyên thực tế cho đại đa số nhà đầu tư: Hãy tin tưởng vào quỹ chỉ số chi phí thấp. Trong thư gửi cổ đông năm 2013, ông đưa ra một danh mục đầu tư mẫu mực cho người vợ của mình: 10% tiền mặt vào trái phiếu chính phủ ngắn hạn và 90% vào quỹ chỉ số S&P 500 chi phí thấp.\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "10",
+      "unit": "%",
+      "period": "năm 2013",
+      "evidence": "Trong thư gửi cổ đông năm 2013, ông đưa ra một danh mục đầu tư mẫu mực cho người vợ của mình: 10% tiền mặt vào trái phiếu chính phủ ngắn hạn và 90% vào quỹ chỉ số S&P 500 chi phí thấp.\"\"\""
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "90",
+      "unit": "%",
+      "period": "năm 2013",
+      "evidence": "Trong thư gửi cổ đông năm 2013, ông đưa ra một danh mục đầu tư mẫu mực cho người vợ của mình: 10% tiền mặt vào trái phiếu chính phủ ngắn hạn và 90% vào quỹ chỉ số S&P 500 chi phí thấp.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Đây là kỹ thuật vô cùng tinh tế, đảm bảo lúa sấy khô mà hạt gạo không bị nứt, gãy, đạt phẩm chất cao, đáp ứng yêu cầu xuất khẩu. Thứ hai, vấn đề tăng hiệu suất và giảm chi phí. Nhờ cải tiến của ông Năm Nhã, lò công suất 8 tấn có thể tăng lên 12 tấn, thời gian sấy giảm từ 12 tiếng xuống còn 8 tiếng.\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "8",
+      "unit": "tấn",
+      "period": "unknown",
+      "evidence": "Nhờ cải tiến của ông Năm Nhã, lò công suất 8 tấn có thể tăng lên 12 tấn, thời gian sấy giảm từ 12 tiếng xuống còn 8 tiếng.\"\"\""
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "12",
+      "unit": "tấn",
+      "period": "unknown",
+      "evidence": "Nhờ cải tiến của ông Năm Nhã, lò công suất 8 tấn có thể tăng lên 12 tấn, thời gian sấy giảm từ 12 tiếng xuống còn 8 tiếng.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Khi dòng tiền tìm nơi \"trú ẩn\" xanh Số liệu cho thấy, giới đầu tư đang ngày càng đặt niềm tin vào các công nghệ đã trưởng thành và có mô hìnhkinh doanhổn định. Trong tổng số vốn khổng lồ nói trên, khoảng 1.200 tỷ USD (30 triệu tỷ đồng) được rót vào năng lượng tái tạo và hệ thống lưới điện - 2 \"xương sống\" của nền kinh tế hiện đại. Đáng chú ý, lĩnh vực giao thông điện hóa bao gồmxe điệnvà hạ tầng trạm sạc đã trở thành ngôi sao sáng khi thu hút tới 893 tỷ USD (hơn 22 triệu tỷ đồng), tăng trưởng mạnh mẽ nhờ nhu cầu bùng nổ tại châu Á và châu Âu.\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "1.200",
+      "unit": "tỷ USD",
+      "period": "unknown",
+      "evidence": "Trong tổng số vốn khổng lồ nói trên, khoảng 1.200 tỷ USD (30 triệu tỷ đồng) được rót vào năng lượng tái tạo và hệ thống lưới điện - 2 \"xương sống\" của nền kinh tế hiện đại."
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "893",
+      "unit": "tỷ USD",
+      "period": "unknown",
+      "evidence": "Đáng chú ý, lĩnh vực giao thông điện hóa bao gồmxe điệnvà hạ tầng trạm sạc đã trở thành ngôi sao sáng khi thu hút tới 893 tỷ USD (hơn 22 triệu tỷ đồng), tăng trưởng mạnh mẽ nhờ nhu cầu bùng nổ tại châu Á và châu Âu.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Nhìn vào bức tranh địa lý, châu Á - Thái Bình Dương tiếp tục là \"công xưởng xanh\" của thế giới khi chiếm gần một nửa tổng chi tiêu toàn cầu. Dẫn đầu vẫn là Trung Quốc với khoản đầu tư lên tới 800 tỷ USD, chiếm 34% toàn cầu. Dù con số này có giảm nhẹ do các điều chỉnh chính sách nội bộ, nhưng Trung Quốc vẫn là quốc gia duy nhất trong top 10 dành tới hơn 4% GDP cho chuyển dịch năng lượng.\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "800",
+      "unit": "tỷ USD",
+      "period": "unknown",
+      "evidence": "Dẫn đầu vẫn là Trung Quốc với khoản đầu tư lên tới 800 tỷ USD, chiếm 34% toàn cầu."
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "34",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Dẫn đầu vẫn là Trung Quốc với khoản đầu tư lên tới 800 tỷ USD, chiếm 34% toàn cầu."
+    },
+    {
+      "indicator": "GDP",
+      "value": "4",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Dù con số này có giảm nhẹ do các điều chỉnh chính sách nội bộ, nhưng Trung Quốc vẫn là quốc gia duy nhất trong top 10 dành tới hơn 4% GDP cho chuyển dịch năng lượng.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Tại sao các doanh nghiệp này lại quyết liệt \"mang chuông đi đánh xứ người\"? Câu trả lời nằm ở bài toán kinh tế thuần túy. Theo phân tích của Wired và Jalopnik, biên lợi nhuận của pin sản xuất tại nước ngoài đạt khoảng 29%, hấp dẫn hơn nhiều so với mức 23% khi sản xuất trong nước.\"\"\"\n": [
+    {
+      "indicator": "lợi nhuận",
+      "value": "29",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Theo phân tích của Wired và Jalopnik, biên lợi nhuận của pin sản xuất tại nước ngoài đạt khoảng 29%, hấp dẫn hơn nhiều so với mức 23% khi sản xuất trong nước.\"\"\""
+    },
+    {
+      "indicator": "lợi nhuận",
+      "value": "23",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Theo phân tích của Wired và Jalopnik, biên lợi nhuận của pin sản xuất tại nước ngoài đạt khoảng 29%, hấp dẫn hơn nhiều so với mức 23% khi sản xuất trong nước.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Ngân hàng chúng tôi coi tài chính xanh và ESG là định hướng chiến lược dài hạn, nhằm dẫn dắt dòng vốn tư nhân chảy vào các lĩnh vực ưu tiên của Chính phủ, như năng lượng tái tạo, hạ tầng xanh và giao thông xanh. Những khoản tín dụng xanh không chỉ góp phần giảm phát thải carbon, mà còn thể hiện vai trò chủ động của khu vực tài chính trong thực hiện cam kết Net Zero 2050 của Việt Nam. Dư nợ tín dụng xanh và đầu tư ESG của ngân hàng đạt khoảng 65.000 tỷ đồng/năm (chiếm 8% tổng dư nợ), trong đó năng lượng tái tạo, năng lượng sạch chiếm 45.700 tỷ đồng.\"\"\"\n": [
+    {
+      "indicator": "Dư nợ",
+      "value": "65.000",
+      "unit": "tỷ đồng",
+      "period": "unknown",
+      "evidence": "Dư nợ tín dụng xanh và đầu tư ESG của ngân hàng đạt khoảng 65.000 tỷ đồng/năm (chiếm 8% tổng dư nợ), trong đó năng lượng tái tạo, năng lượng sạch chiếm 45.700 tỷ đồng.\"\"\""
+    },
+    {
+      "indicator": "Dư nợ",
+      "value": "8",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Dư nợ tín dụng xanh và đầu tư ESG của ngân hàng đạt khoảng 65.000 tỷ đồng/năm (chiếm 8% tổng dư nợ), trong đó năng lượng tái tạo, năng lượng sạch chiếm 45.700 tỷ đồng.\"\"\""
+    },
+    {
+      "indicator": "Dư nợ",
+      "value": "45.700",
+      "unit": "tỷ đồng",
+      "period": "unknown",
+      "evidence": "Dư nợ tín dụng xanh và đầu tư ESG của ngân hàng đạt khoảng 65.000 tỷ đồng/năm (chiếm 8% tổng dư nợ), trong đó năng lượng tái tạo, năng lượng sạch chiếm 45.700 tỷ đồng.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Đối với tiểu thương và hộ kinh doanh cá thể, chúng tôi cung cấp các giải pháp số hóa trên nền tảng di động; ứng dụng quản lý bán hàng thông minh, hỗ trợ quản lý đơn hàng, xuất hóa đơn điện tử, kê khai thuế ngay trên điện thoại; loa thanh toán... Đối với khách hàng doanh nghiệp, chúng tôi đồng hành cùng trong chuyển đổi mô hình vận hành, tài chính và quản trị, thông qua nền tảng số, triển khai sản phẩm tín chấp tự động hóa toàn trình cho doanh nghiệp siêu nhỏ (micro SME), cho phép hệ thống tự động sàng lọc, chấm điểm và phê duyệt khoản vay mà không cần can thiệp thủ công. Giải pháp này giúp mở rộng khả năng tiếp cận vốn chính thức cho hàng trăm nghìn doanh nghiệp tư nhân nhỏ, vốn là khu vực tạo ra hơn 60% việc làm và đóng góp lớn cho GDP.\"\"\"\n": [
+    {
+      "indicator": "GDP",
+      "value": "60",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Giải pháp này giúp mở rộng khả năng tiếp cận vốn chính thức cho hàng trăm nghìn doanh nghiệp tư nhân nhỏ, vốn là khu vực tạo ra hơn 60% việc làm và đóng góp lớn cho GDP.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Toàn cảnh phiên họp của Ủy ban 1 sáng 10/10 (Ảnh: Hải Long). Chia sẻ tại phiên họp của Ủy ban 1, ông Trần Anh Tuấn, Phó chủ tịch và CEO Mạng lưới UAV Việt Nam, cho biết trên thế giới, ngành hàng không tầm thấp được định giá dự kiến đạt khoảng 700 tỷ USD vào năm 2035. Tại Trung Quốc, lĩnh vực này đang tăng trưởng nhanh chóng với quy mô ước đạt 71 tỷ USD vào năm 2023, tăng hơn 33,8% so với năm trước.\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "700",
+      "unit": "tỷ USD",
+      "period": "năm 2035",
+      "evidence": "Chia sẻ tại phiên họp của Ủy ban 1, ông Trần Anh Tuấn, Phó chủ tịch và CEO Mạng lưới UAV Việt Nam, cho biết trên thế giới, ngành hàng không tầm thấp được định giá dự kiến đạt khoảng 700 tỷ USD vào năm 2035."
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "71",
+      "unit": "tỷ USD",
+      "period": "năm 2023",
+      "evidence": "Tại Trung Quốc, lĩnh vực này đang tăng trưởng nhanh chóng với quy mô ước đạt 71 tỷ USD vào năm 2023, tăng hơn 33,8% so với năm trước.\"\"\""
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "33.8",
+      "unit": "%",
+      "period": "năm 2023",
+      "evidence": "Tại Trung Quốc, lĩnh vực này đang tăng trưởng nhanh chóng với quy mô ước đạt 71 tỷ USD vào năm 2023, tăng hơn 33,8% so với năm trước.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Giá vàng trong nước tăng cùng chiều với thị trường quốc tế. Theo đó, giá vàng thế giới đang giao dịch quanh 5.080 USD/ounce, tăng 73 USD so với trước đó và liên tục thiết lập kỷ lục mới. Quy đổi theotỷ giáchưa tính thuế, phí, giá vàng thế giới tương đương 164 triệu đồng/lượng.\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "5.080",
+      "unit": "USD",
+      "period": "unknown",
+      "evidence": "Theo đó, giá vàng thế giới đang giao dịch quanh 5.080 USD/ounce, tăng 73 USD so với trước đó và liên tục thiết lập kỷ lục mới."
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "73",
+      "unit": "USD",
+      "period": "unknown",
+      "evidence": "Theo đó, giá vàng thế giới đang giao dịch quanh 5.080 USD/ounce, tăng 73 USD so với trước đó và liên tục thiết lập kỷ lục mới."
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "164",
+      "unit": "triệu đồng",
+      "period": "unknown",
+      "evidence": "Quy đổi theotỷ giáchưa tính thuế, phí, giá vàng thế giới tương đương 164 triệu đồng/lượng.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Theo Reuters, giá vàng tăng tiếp tục được đẩy nhanh hơn sau những lời đe dọa áp thuế mới từ Tổng thống Mỹ Donald Trump vào cuối tuần qua. Chỉ vài ngày sau khi gây áp lực tương tự lên một số đồng minh châu Âu phản đối tuyên bố chủ quyền của Mỹ đối với Greenland trước khi nhượng bộ, ông Donald Trump hôm thứ 7 tuyên bố sẽ áp thuế 100% đối với hàng nhập khẩu từ Canada vào Mỹ nếu Ottawa và Trung Quốc đạt được một thỏa thuận thương mại. Bên cạnh đó, những thay đổi chính sách liên tục của chính quyền Mỹ cũng đang tạo ra một bầu không khí bất ổn tại Mỹ, khiến các nhà đầu tư chuyển hướng khỏi đồng USD và trái phiếu Chính phủ, vốn thường được coi là nơi trú ẩn an toàn cạnh tranh với vàng.\"\"\"\n": [
+    {
+      "indicator": "nhập khẩu",
+      "value": "100",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Chỉ vài ngày sau khi gây áp lực tương tự lên một số đồng minh châu Âu phản đối tuyên bố chủ quyền của Mỹ đối với Greenland trước khi nhượng bộ, ông Donald Trump hôm thứ 7 tuyên bố sẽ áp thuế 100% đối với hàng nhập khẩu từ Canada vào Mỹ nếu Ottawa và Trung Quốc đạt được một thỏa thuận thương mại."
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Trong khi các mô hình kinh tế học truyền thống đang nhấp nháy đèn vàng cảnh báo về sự chậm lại, thì những người cầm cân nảy mực cho chính sách kinh tế Mỹ lại đang vẽ ra một viễn cảnh rực rỡ chưa từng có. Câu chuyện bắt đầu từ nhận định đầy tự tin của ông Howard Lutnick, Bộ trưởng Thương mại Mỹ, khi ông cho rằng cỗ xe kinh tế trị giá 30.000 tỷ USD này không chỉ chạy tốt mà còn sắp tăng tốc lên mức kỷ lục. Chính quyền Tổng thống Donald Trump đang dự báo nền kinh tế Mỹ sẽ đạt mức tăng trưởng 4-5% trong năm 2026 (Ảnh: FT).\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "30.000",
+      "unit": "tỷ USD",
+      "period": "unknown",
+      "evidence": "Câu chuyện bắt đầu từ nhận định đầy tự tin của ông Howard Lutnick, Bộ trưởng Thương mại Mỹ, khi ông cho rằng cỗ xe kinh tế trị giá 30.000 tỷ USD này không chỉ chạy tốt mà còn sắp tăng tốc lên mức kỷ lục."
+    },
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "-5",
+      "unit": "%",
+      "period": "năm 2026",
+      "evidence": "Chính quyền Tổng thống Donald Trump đang dự báo nền kinh tế Mỹ sẽ đạt mức tăng trưởng 4-5% trong năm 2026 (Ảnh: FT).\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Cùng với 2 mã này, nhiều cổ phiếu khác ngành dầu khí cũng tăng mạnh trong phiên, như BSR, OIL, PVB, PVC, PVS. Tuy nhiên, áp lực thị trường nằm ở nhóm cổ phiếu \"họ\" Vingroup, gồm VIC (Vingroup) và VHM (Vinhomes). Trong đó, cổ phiếu VHM giảm sàn còn VIC giảm 5,57%, tác động tiêu cực nhất đến chỉ số.\"\"\"\n": [
+    {
+      "indicator": "chỉ tiêu kinh tế",
+      "value": "-5.57",
+      "unit": "%",
+      "period": "unknown",
+      "evidence": "Trong đó, cổ phiếu VHM giảm sàn còn VIC giảm 5,57%, tác động tiêu cực nhất đến chỉ số.\"\"\""
+    }
+  ],
+  "gemini-3-flash-preview::Bạn là một chuyên gia trích xuất thông tin kinh tế tiếng Việt.\nNhiệm vụ: Trích xuất tất cả các bộ dữ kiện định lượng trong đoạn văn dưới đây.\nĐịnh dạng đầu ra: Một JSON LIST chứa các object có các trường:\n- indicator: Tên chỉ tiêu kinh tế kèm chủ thể (doanh nghiệp hoặc quốc gia), ví dụ: 'doanh thu Hòa Phát', 'tổng kim ngạch xuất khẩu'.\n- value: Giá trị số (nếu có từ 'giảm', 'mất', 'âm' thì thêm dấu âm '-').\n- unit: Đơn vị đo lường (ví dụ: 'tỷ đồng', '%', 'triệu USD', 'USD/thùng').\n- period: Mốc thời gian áp dụng số liệu đó. Nếu văn bản không nêu mốc thời gian rõ ràng, bắt buộc ghi 'unknown'.\n- evidence: Câu văn trích dẫn nguyên văn trong đoạn văn chứa dữ kiện đó.\n\nĐoạn văn bản cần trích xuất:\n\"\"\"Tại Thanh Hóa, FLC đề xuất nghiên cứu và triển khai lại Khu đô thị Hoàng Long trên diện tích hơn 286ha bị bỏ hoang nhiều năm. Tại Gia Lai, sân golf Đak Đoa quy mô gần 172ha được chấp thuận khởi động trở lại, cùng dự án tổ hợp khách sạn - nhà phố thương mại FLC Hilltop. Theo thông tin từ doanh nghiệp, năm 2025, lợi nhuận sau thuế của mảng kinh doanh bất động sản ước tính đạt khoảng 635 tỷ đồng, tăng đáng kể so với khoản lỗ 123 tỷ đồng của năm 2024.\"\"\"\n": [
+    {
+      "indicator": "lợi nhuận sau thuế",
+      "value": "635",
+      "unit": "tỷ đồng",
+      "period": "năm 2025",
+      "evidence": "Theo thông tin từ doanh nghiệp, năm 2025, lợi nhuận sau thuế của mảng kinh doanh bất động sản ước tính đạt khoảng 635 tỷ đồng, tăng đáng kể so với khoản lỗ 123 tỷ đồng của năm 2024.\"\"\""
+    },
+    {
+      "indicator": "lợi nhuận sau thuế",
+      "value": "123",
+      "unit": "tỷ đồng",
+      "period": "năm 2025",
+      "evidence": "Theo thông tin từ doanh nghiệp, năm 2025, lợi nhuận sau thuế của mảng kinh doanh bất động sản ước tính đạt khoảng 635 tỷ đồng, tăng đáng kể so với khoản lỗ 123 tỷ đồng của năm 2024.\"\"\""
+    }
+  ]
+}

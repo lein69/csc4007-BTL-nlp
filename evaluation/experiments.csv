@@ -1,0 +1,4 @@
+﻿run_id,method,dataset_version,split_version,config_path,seed_or_prompt_version,dev_metric,test_metric,prediction_file,notes
+E0,Baseline (Regex + Nearest Neighbor),1.0.0,test_locked_v1,configs/config_E0.json,fixed_regex,0.6210,0.6905,evaluation/test_predictions_E0.csv,"Đặt mốc cơ sở: regex tìm số và đơn vị, gán chỉ tiêu/thời gian gần nhất"
+E1,LLM Zero-Shot (Gemini Flash Native JSON),1.0.0,test_locked_v1,configs/config_E1.json,gemini_zero_shot_v1,0.7850,0.5312,evaluation/test_predictions_E1.csv,"Giả thuyết A: LLM hiểu ngữ cảnh ngữ nghĩa tự nhiên, giảm nhầm lẫn thời gian và gán đúng dấu âm"
+E2,Two-Stage Pipeline (LLM Few-Shot + Schema Validation),1.0.0,test_locked_v1,configs/config_E2.json,gemini_few_shot_v2,0.8920,0.5597,evaluation/test_predictions_E2.csv,Giả thuyết B: Few-shot định hướng góc hẹp + Tầng kiểm chuẩn Schema giúp chuẩn hóa đơn vị và lọc trùng triệt để

@@ -1,0 +1,2256 @@
+﻿item_id,document_id,tuple_id,indicator,value,unit,period,evidence
+UVN_BIZ_article-00011_1,article-00011,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Chủ tịch Ủy ban châu Âu (EC) Ursula von der Leyen cũng gọi đây là ""mẹ của các thỏa thuận"", khi tạo ra khu vực thương mại tự do cho 2 tỷ người."
+UVN_BIZ_article-00011_1,article-00011,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Chủ tịch Ủy ban châu Âu (EC) Ursula von der Leyen cũng gọi đây là ""mẹ của các thỏa thuận"", khi tạo ra khu vực thương mại tự do cho 2 tỷ người."
+UVN_BIZ_article-00011_1,article-00011,E2_T3,xuất khẩu,97,%,năm 2032,"Thỏa thuận được kỳ vọng nâng gấp đôi xuất khẩu của EU sang Ấn Độ năm 2032, bằng cách xóa bỏ hoặc giảm thuế nhập khẩu với số hàng hóa chiếm 97% kim ngạch thương mại."""""""
+UVN_BIZ_article-00011_2,article-00011,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu."
+UVN_BIZ_article-00011_2,article-00011,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu."
+UVN_BIZ_article-00011_2,article-00011,E2_T3,doanh thu,4.75,tỷ USD,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu."
+UVN_BIZ_article-00011_2,article-00011,E2_T4,thuế nhập khẩu,-99.5,%,trong vòng 7 năm,"Đổi lại, EU sẽ giảm thuế nhập khẩu với 99,5% hàng nhập khẩu từ Ấn Độ trong vòng 7 năm."
+UVN_BIZ_article-00012_1,article-00012,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Chủ tịch Ủy ban châu Âu (EC) Ursula von der Leyen cũng gọi đây là ""mẹ của các thỏa thuận"", khi tạo ra khu vực thương mại tự do cho 2 tỷ người."
+UVN_BIZ_article-00012_1,article-00012,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Chủ tịch Ủy ban châu Âu (EC) Ursula von der Leyen cũng gọi đây là ""mẹ của các thỏa thuận"", khi tạo ra khu vực thương mại tự do cho 2 tỷ người."
+UVN_BIZ_article-00012_1,article-00012,E2_T3,xuất khẩu,97,%,năm 2032,"Thỏa thuận được kỳ vọng nâng gấp đôi xuất khẩu của EU sang Ấn Độ năm 2032, bằng cách xóa bỏ hoặc giảm thuế nhập khẩu với số hàng hóa chiếm 97% kim ngạch thương mại."""""""
+UVN_BIZ_article-00012_2,article-00012,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu."
+UVN_BIZ_article-00012_2,article-00012,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu."
+UVN_BIZ_article-00012_2,article-00012,E2_T3,doanh thu,4.75,tỷ USD,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""EU cho biết thỏa thuận cũng sẽ giúp tiết kiệm 4 tỷ euro (4,75 tỷ USD) tiền thuế cho các doanh nghiệp châu Âu."
+UVN_BIZ_article-00012_2,article-00012,E2_T4,thuế nhập khẩu,-99.5,%,trong vòng 7 năm,"Đổi lại, EU sẽ giảm thuế nhập khẩu với 99,5% hàng nhập khẩu từ Ấn Độ trong vòng 7 năm."
+UVN_BIZ_article-00017_1,article-00017,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Doanh nghiệp chính thức gia nhập thị trường Indonesia từ tháng 2/2024, cung cấp các mẫu xe điện như VF 3, VF 5, VF 6, VF e34 và VF 7."
+UVN_BIZ_article-00017_1,article-00017,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Doanh nghiệp chính thức gia nhập thị trường Indonesia từ tháng 2/2024, cung cấp các mẫu xe điện như VF 3, VF 5, VF 6, VF e34 và VF 7."
+UVN_BIZ_article-00017_1,article-00017,E2_T3,chỉ tiêu kinh tế,1.2,tỷ USD,unknown,"VinFast tuyên bố sẽ đầu tư khoảng 1,2 tỷ USD vào đất nước này Hơn một năm sau, doanh nghiệp đã khánh thành giai đoạn đầu cơ sở lắp ráp ôtô điện tại Indonesia với 50.000 xe sẽ được sản xuất mỗi năm."
+UVN_BIZ_article-00018_1,article-00018,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Doanh nghiệp chính thức gia nhập thị trường Indonesia từ tháng 2/2024, cung cấp các mẫu xe điện như VF 3, VF 5, VF 6, VF e34 và VF 7."
+UVN_BIZ_article-00018_1,article-00018,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Doanh nghiệp chính thức gia nhập thị trường Indonesia từ tháng 2/2024, cung cấp các mẫu xe điện như VF 3, VF 5, VF 6, VF e34 và VF 7."
+UVN_BIZ_article-00018_1,article-00018,E2_T3,chỉ tiêu kinh tế,1.2,tỷ USD,unknown,"VinFast tuyên bố sẽ đầu tư khoảng 1,2 tỷ USD vào đất nước này Hơn một năm sau, doanh nghiệp đã khánh thành giai đoạn đầu cơ sở lắp ráp ôtô điện tại Indonesia với 50.000 xe sẽ được sản xuất mỗi năm."
+UVN_BIZ_article-01001_1,article-01001,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Theo phân tích của Barron's và CNBC, các công ty Trung Quốc như Tencent, Alibaba hay ByteDance đang ưu tiên tăng trưởng người dùng và tích hợp AI vào các nền tảng có sẵn hơn là chạy đua vũ trang về phần cứng đơn thuần."
+UVN_BIZ_article-01001_1,article-01001,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Theo phân tích của Barron's và CNBC, các công ty Trung Quốc như Tencent, Alibaba hay ByteDance đang ưu tiên tăng trưởng người dùng và tích hợp AI vào các nền tảng có sẵn hơn là chạy đua vũ trang về phần cứng đơn thuần."
+UVN_BIZ_article-01001_1,article-01001,E2_T3,chỉ tiêu kinh tế,140,triệu USD,unknown,"Tập đoàn này vừa thông báo sẽ chi tới 1 tỷ nhân dân tệ (khoảng 140 triệu USD) tiền thưởng thông qua chatbot AI Yuanbao trong dịp Tết Nguyên đán."""""""
+UVN_BIZ_article-01001_2,article-01001,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Các mô hình càng thông minh, càng cần năng lực tính toán khổng lồ để huấn luyện và vận hành."
+UVN_BIZ_article-01001_2,article-01001,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Các mô hình càng thông minh, càng cần năng lực tính toán khổng lồ để huấn luyện và vận hành."
+UVN_BIZ_article-01001_2,article-01001,E2_T3,vốn đầu tư,340,tỷ USD,unknown,"Theo JPMorgan, các đại gia công nghệ Mỹ đã chi khoảng 340 tỷ USD vốn đầu tư cho AI trong năm ngoái - một con số kỷ lục."""""""
+UVN_BIZ_article-01002_1,article-01002,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Công ty này cũng đã thêm lĩnh vực sản xuất động cơ, tua bin với chi tiết là sản xuất động cơ đường sắt (mã 2811) và sản xuất đầu máy xe lửa, xe điện, toa xe và các thiết bị chuyên dùng trên đường ray (mã 3020)."
+UVN_BIZ_article-01002_1,article-01002,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Công ty này cũng đã thêm lĩnh vực sản xuất động cơ, tua bin với chi tiết là sản xuất động cơ đường sắt (mã 2811) và sản xuất đầu máy xe lửa, xe điện, toa xe và các thiết bị chuyên dùng trên đường ray (mã 3020)."
+UVN_BIZ_article-01002_2,article-01002,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cuối năm 2025, công ty phát hành thành công lô trái phiếu mã THC12501 với tổng giá trị huy động đạt 2.000 tỷ đồng."
+UVN_BIZ_article-01002_2,article-01002,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cuối năm 2025, công ty phát hành thành công lô trái phiếu mã THC12501 với tổng giá trị huy động đạt 2.000 tỷ đồng."
+UVN_BIZ_article-01002_2,article-01002,E2_T3,doanh thu,2.000,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cuối năm 2025, công ty phát hành thành công lô trái phiếu mã THC12501 với tổng giá trị huy động đạt 2.000 tỷ đồng."
+UVN_BIZ_article-01003_1,article-01003,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Và họ đã chứng minh điều đó bằng tiền."
+UVN_BIZ_article-01003_1,article-01003,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Và họ đã chứng minh điều đó bằng tiền."
+UVN_BIZ_article-01003_1,article-01003,E2_T3,chỉ tiêu kinh tế,29,%,unknown,"Thương vụ mua lại 29% cổ phần Puma từ gia đình tỷ phú Pháp Pinault (chủ sở hữu tập đoàn xa xỉ Kering) là mảnh ghép mới nhất trong chiến lược ""đa thương hiệu"" đầy táo bạo của Anta."
+UVN_BIZ_article-01003_2,article-01003,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Theo Financial Times, các nhà phân tích của Jefferies lo ngại về khả năng pha loãng cổ phiếu và áp lực lợi nhuận ngắn hạn đối với Anta."
+UVN_BIZ_article-01003_2,article-01003,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Theo Financial Times, các nhà phân tích của Jefferies lo ngại về khả năng pha loãng cổ phiếu và áp lực lợi nhuận ngắn hạn đối với Anta."
+UVN_BIZ_article-01003_2,article-01003,E2_T3,chỉ tiêu kinh tế,4.900,tỷ USD,unknown,"Dẫu vậy, trong bối cảnh làn sóng M&A toàn cầu đang bùng nổ trở lại với giá trị các giao dịch đạt 4.900 tỷ USD (theo Bain & Company), bước đi của Anta cho thấy sự dịch chuyển tất yếu của dòng vốn: chảy từ những nơi hiệu quả thấp sang những tay chơi mới giàu tiềm lực và khát vọng hơn."""""""
+UVN_BIZ_article-01004_1,article-01004,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Bên cạnh đó, nhiệm kỳ của Stephen Miran - Thống đốc do ông Trump bổ nhiệm - sẽ kết thúc vào cuối tuần này."
+UVN_BIZ_article-01004_1,article-01004,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Bên cạnh đó, nhiệm kỳ của Stephen Miran - Thống đốc do ông Trump bổ nhiệm - sẽ kết thúc vào cuối tuần này."
+UVN_BIZ_article-01007_1,article-01007,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Đến nay, doanh nghiệp sở hữu các công ty con trong lĩnh vực sản xuấtkinh doanhbất động sản, vật liệu xây dựng và hạ tầng tiện ích, như Tổng công ty Viglacera (mã chứng khoán: VGC), Công ty Đầu tư Khu công nghiệp Dầu khí Long Sơn (mã chứng khoán: PXL), Công ty nước sạch Đông Đà (mã chứng khoán: VCW), Công ty FIH (Vietnam), Công ty Titan Hải Phòng."
+UVN_BIZ_article-01007_1,article-01007,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Đến nay, doanh nghiệp sở hữu các công ty con trong lĩnh vực sản xuấtkinh doanhbất động sản, vật liệu xây dựng và hạ tầng tiện ích, như Tổng công ty Viglacera (mã chứng khoán: VGC), Công ty Đầu tư Khu công nghiệp Dầu khí Long Sơn (mã chứng khoán: PXL), Công ty nước sạch Đông Đà (mã chứng khoán: VCW), Công ty FIH (Vietnam), Công ty Titan Hải Phòng."
+UVN_BIZ_article-01007_1,article-01007,E2_T3,chỉ tiêu kinh tế,41.396,tỷ đồng,unknown,"Theo báo cáo tài chính mới nhất tính đến 30/9/2025,doanh nghiệpcó tổng tài sản hơn 41.396 tỷ đồng với vốn chủ sở hữu hơn 18.245 tỷ đồng."
+UVN_BIZ_article-01007_1,article-01007,E2_T4,chỉ tiêu kinh tế,18.245,tỷ đồng,unknown,"Theo báo cáo tài chính mới nhất tính đến 30/9/2025,doanh nghiệpcó tổng tài sản hơn 41.396 tỷ đồng với vốn chủ sở hữu hơn 18.245 tỷ đồng."
+UVN_BIZ_article-01007_1,article-01007,E2_T5,Lợi nhuận sau thuế,984,tỷ đồng,so với cùng kỳ năm trước,"Lợi nhuận sau thuế 9 tháng đạt gần 984 tỷ đồng, tăng 91% so với cùng kỳ năm trước."""""""
+UVN_BIZ_article-01007_1,article-01007,E2_T6,Lợi nhuận sau thuế,91,%,so với cùng kỳ năm trước,"Lợi nhuận sau thuế 9 tháng đạt gần 984 tỷ đồng, tăng 91% so với cùng kỳ năm trước."""""""
+UVN_BIZ_article-01008_1,article-01008,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""“Không có anh Dương ngày đó, HAGL đã không còn tồn tại đến hôm nay”, bầu Đức nói."
+UVN_BIZ_article-01008_1,article-01008,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""“Không có anh Dương ngày đó, HAGL đã không còn tồn tại đến hôm nay”, bầu Đức nói."
+UVN_BIZ_article-01008_1,article-01008,E2_T3,lợi nhuận,-50,%,unknown,"Lúc bấy giờ, với khối lượng tài sản lớn, dòng tiền lợi nhuận hàng nghìn tỷ đồng mỗi năm, bầu Đức có biệt hiệu là “đại gia” chơi ngông thứ thiệt: giảm giá 50% bất động sản so với mặt bằng chung, sở hữu máy bay riêng, chi mạnh cho ngành bóng đá… Thời hoàng kim ấy, HAGL Agrico từng được xem là bước đi có tính toán của ông bầu, từ thuỷ điện, bất động sản chuyển hướng sang nông nghiệp."""""""
+UVN_BIZ_article-01008_2,article-01008,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Thực tế, trước cú “sụp đổ” của giá cao su, HAGL Agrico đã có thời kỳ phát triển mạnh."
+UVN_BIZ_article-01008_2,article-01008,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Thực tế, trước cú “sụp đổ” của giá cao su, HAGL Agrico đã có thời kỳ phát triển mạnh."
+UVN_BIZ_article-01008_2,article-01008,E2_T3,lợi nhuận sau thuế,3,tỷ đồng,Năm 2012,"Năm 2012, công ty chỉ lãi 3 tỷ đồng thì sang năm 2013, mức lợi nhuận sau thuế đã tăng đột biến lên 685 tỷ đồng."
+UVN_BIZ_article-01008_2,article-01008,E2_T4,lợi nhuận sau thuế,685,tỷ đồng,Năm 2012,"Năm 2012, công ty chỉ lãi 3 tỷ đồng thì sang năm 2013, mức lợi nhuận sau thuế đã tăng đột biến lên 685 tỷ đồng."
+UVN_BIZ_article-01008_2,article-01008,E2_T5,chỉ tiêu kinh tế,800,tỷ đồng,năm 2015,"Con số này tiếp tục tăng lên gần 800 tỷ đồng vào năm 2015, trước khi bầu Đức tuyên bố mất thanh khoản vào năm 2016."""""""
+UVN_BIZ_article-01009_1,article-01009,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Phiên giao dịchchứng khoánngày 28/1, bộ đôi cổ phiếu VCG - ACV ghi nhận diễn biến tích cực hơn so với 2 ngày trước đây."
+UVN_BIZ_article-01009_1,article-01009,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Phiên giao dịchchứng khoánngày 28/1, bộ đôi cổ phiếu VCG - ACV ghi nhận diễn biến tích cực hơn so với 2 ngày trước đây."
+UVN_BIZ_article-01009_1,article-01009,E2_T3,nhập khẩu,-1.77,%,unknown,"Trong đó, cổ phiếu VCG của Tổng Công ty Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex) không còn tái diễn cảnh giảm sàn của 2 phiên trước đó, đà giảm rút ngắn còn 1,77%."
+UVN_BIZ_article-01009_2,article-01009,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Nhóm cổ phiếu vốn hóa lớn VN30 gây áp lực mạnh lên thị trường."
+UVN_BIZ_article-01009_2,article-01009,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Nhóm cổ phiếu vốn hóa lớn VN30 gây áp lực mạnh lên thị trường."
+UVN_BIZ_article-01009_2,article-01009,E2_T3,chỉ tiêu kinh tế,-5.8,%,unknown,"Trong đó, cổ phiếu VIC (Vingroup) giảm sàn, còn các mã khác liên quan như VRE (Vincom Retail), VHM (Vinhomes) cũng giảm lần lượt 5,8% và 5,7%."
+UVN_BIZ_article-01009_2,article-01009,E2_T4,chỉ tiêu kinh tế,-5.7,%,unknown,"Trong đó, cổ phiếu VIC (Vingroup) giảm sàn, còn các mã khác liên quan như VRE (Vincom Retail), VHM (Vinhomes) cũng giảm lần lượt 5,8% và 5,7%."
+UVN_BIZ_article-01010_1,article-01010,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Tại Hội thảo ""Kết nối liên vùng - Động lực phát triển khu thương mại tự do TPHCM"" tổ chức ngày 27/1, các chuyên gia và nhà hoạch định chính sách đã phác thảo nên hình hài của một ""đại dự án"" mang tính lịch sử, đó là khu thương mại tự do (FTZ) Cái Mép Hạ."
+UVN_BIZ_article-01010_1,article-01010,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Tại Hội thảo ""Kết nối liên vùng - Động lực phát triển khu thương mại tự do TPHCM"" tổ chức ngày 27/1, các chuyên gia và nhà hoạch định chính sách đã phác thảo nên hình hài của một ""đại dự án"" mang tính lịch sử, đó là khu thương mại tự do (FTZ) Cái Mép Hạ."
+UVN_BIZ_article-01010_1,article-01010,E2_T3,chỉ tiêu kinh tế,326.000,tỷ đồng,unknown,"Siêu dự án 326.000 tỷ đồng Được định vị là mảnh ghép quan trọng nhất trong chiến lược kinh tế hướng biển của siêu đô thị TPHCM (sau sáp nhập), Khu thương mại tự do (FTZ) Cái Mép Hạ đang nổi lên như một siêu dự án với quy mô và tầm nhìn chưa từng có."
+UVN_BIZ_article-01010_1,article-01010,E2_T4,vốn đầu tư,326.000,tỷ đồng,năm 2026,"Theo Viện Nghiên cứu phát triển TPHCM (HIDS), dự án có tổng vốn đầu tư dự kiến là 326.000 tỷ đồng, với lộ trình hoàn thiện đề án năm 2026 và đưa hạ tầng cơ bản vào vận hành cuối năm 2028."""""""
+UVN_BIZ_article-01010_2,article-01010,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Theo các chuyên gia, Cái Mép Hạ sở hữu lợi thế địa kinh tế ""độc nhất vô nhị""."
+UVN_BIZ_article-01010_2,article-01010,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Theo các chuyên gia, Cái Mép Hạ sở hữu lợi thế địa kinh tế ""độc nhất vô nhị""."
+UVN_BIZ_article-01010_2,article-01010,E2_T3,chỉ tiêu kinh tế,200.000,tấn,unknown,"Đây là một trong số ít cảng biển trên thế giới có khả năng đón tàu mẹ trọng tải trên 200.000 tấn, cho phép thiết lập các tuyến hàng hải trực tiếp đi châu Âu và Bắc Mỹ mà không cần trung chuyển."
+UVN_BIZ_article-01010_2,article-01010,E2_T4,GDP,-18,%,unknown,"Nằm ở đỉnh của ""tam giác chiến lược"" Thủ Thiêm (Tài chính) - Long Thành (Hàng không) - Cái Mép (Hàng hải), FTZ này nắm giữ chìa khóa để kéo giảm chi phí logistics quốc gia từ 16-18% GDP xuống mức lý tưởng 10%."""""""
+UVN_BIZ_article-01010_2,article-01010,E2_T5,GDP,10,%,unknown,"Nằm ở đỉnh của ""tam giác chiến lược"" Thủ Thiêm (Tài chính) - Long Thành (Hàng không) - Cái Mép (Hàng hải), FTZ này nắm giữ chìa khóa để kéo giảm chi phí logistics quốc gia từ 16-18% GDP xuống mức lý tưởng 10%."""""""
+UVN_BIZ_article-01012_1,article-01012,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Bên cạnh taxi, tập đoàn cũng dần phát triển thành hệ sinh thái đa ngành với du lịch - lữ hành, xây dựng, đào tạo,quảng cáotruyền thống, công nghệ thông tin, tài chính, bất động sản… Mai Linh từng là tên tuổi lớn trong ngành taxi, chia thị phần thống trị thị trường toàn quốc cùng với Vinasun."
+UVN_BIZ_article-01012_1,article-01012,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Bên cạnh taxi, tập đoàn cũng dần phát triển thành hệ sinh thái đa ngành với du lịch - lữ hành, xây dựng, đào tạo,quảng cáotruyền thống, công nghệ thông tin, tài chính, bất động sản… Mai Linh từng là tên tuổi lớn trong ngành taxi, chia thị phần thống trị thị trường toàn quốc cùng với Vinasun."
+UVN_BIZ_article-01012_2,article-01012,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cùng với sự xuất hiện của các hãng ứng dụng gọi xe như Uber, Grab…."
+UVN_BIZ_article-01012_2,article-01012,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cùng với sự xuất hiện của các hãng ứng dụng gọi xe như Uber, Grab…."
+UVN_BIZ_article-01012_2,article-01012,E2_T3,chỉ tiêu kinh tế,795,tỷ đồng,Năm 2017,"Năm 2017, Mai Linh bị kiểm toán nghi ngờ không còn hoạt động liên tục khi lỗ lũy kế 795 tỷ đồng và khoản nợ phải trả vượt tài sản ngắn hạn."""""""
+UVN_BIZ_article-01013_1,article-01013,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Công ty cổ phần Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) công bố báo cáotài chínhhợp nhất quý IV/2025 với khoản lợi nhuận tăng đột biến lên gần 24 tỷ đồng dù cùng kỳ năm trước lỗ gần 6 tỷ đồng."
+UVN_BIZ_article-01013_1,article-01013,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Công ty cổ phần Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) công bố báo cáotài chínhhợp nhất quý IV/2025 với khoản lợi nhuận tăng đột biến lên gần 24 tỷ đồng dù cùng kỳ năm trước lỗ gần 6 tỷ đồng."
+UVN_BIZ_article-01013_1,article-01013,E2_T3,doanh thu,24,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Công ty cổ phần Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) công bố báo cáotài chínhhợp nhất quý IV/2025 với khoản lợi nhuận tăng đột biến lên gần 24 tỷ đồng dù cùng kỳ năm trước lỗ gần 6 tỷ đồng."
+UVN_BIZ_article-01013_1,article-01013,E2_T4,doanh thu,6,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Công ty cổ phần Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) công bố báo cáotài chínhhợp nhất quý IV/2025 với khoản lợi nhuận tăng đột biến lên gần 24 tỷ đồng dù cùng kỳ năm trước lỗ gần 6 tỷ đồng."
+UVN_BIZ_article-01013_1,article-01013,E2_T5,doanh thu,6,tỷ đồng,so với cùng kỳ năm trước,"Trong khi đó, doanh thu cả quý chỉ đạt hơn 6 tỷ đồng, giảm 18% so với cùng kỳ năm trước."
+UVN_BIZ_article-01013_1,article-01013,E2_T6,doanh thu,-18,%,so với cùng kỳ năm trước,"Trong khi đó, doanh thu cả quý chỉ đạt hơn 6 tỷ đồng, giảm 18% so với cùng kỳ năm trước."
+UVN_BIZ_article-01013_1,article-01013,E2_T7,doanh thu,48,tỷ đồng,unknown,"Động lực tăng trưởng chủ yếu đến từ doanh thu tài chính hơn 48 tỷ đồng, gấp hơn 3 lần cùng kỳ năm trước, nhờ lợi nhuận từ hoạt động đầu tưchứng khoántăng, do thị trường cuối năm có nhiều diễn biến tích cực."""""""
+UVN_BIZ_article-01014_1,article-01014,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Các cổ phiếu trên sau đó đã rời sàn chứng khoán vào ngày 31/12/2025, phiên giao dịch cuối cùng của cổ phiếu trên hệ thống UpCOM là ngày 30/12/2025."
+UVN_BIZ_article-01014_1,article-01014,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Các cổ phiếu trên sau đó đã rời sàn chứng khoán vào ngày 31/12/2025, phiên giao dịch cuối cùng của cổ phiếu trên hệ thống UpCOM là ngày 30/12/2025."
+UVN_BIZ_article-01014_1,article-01014,E2_T3,lợi nhuận sau thuế,635,tỷ đồng,năm 2025,"Theo đó, lợi nhuận sau thuế mảng bất động sản năm 2025 được ước đạt khoảng 635 tỷ đồng, đảo chiều rõ rệt so với khoản lỗ 123 tỷ đồng của năm 2024."""""""
+UVN_BIZ_article-01014_1,article-01014,E2_T4,lợi nhuận sau thuế,123,tỷ đồng,năm 2025,"Theo đó, lợi nhuận sau thuế mảng bất động sản năm 2025 được ước đạt khoảng 635 tỷ đồng, đảo chiều rõ rệt so với khoản lỗ 123 tỷ đồng của năm 2024."""""""
+UVN_BIZ_article-01016_1,article-01016,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Chị Nguyễn Thị Tuyết, chủ một công ty hoạt động trong lĩnh vực dịch vụ xuất nhập khẩu, cho biết doanh nghiệp đang gặp vướng mắc trong quá trình thực hiện."
+UVN_BIZ_article-01016_1,article-01016,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Chị Nguyễn Thị Tuyết, chủ một công ty hoạt động trong lĩnh vực dịch vụ xuất nhập khẩu, cho biết doanh nghiệp đang gặp vướng mắc trong quá trình thực hiện."
+UVN_BIZ_article-01016_1,article-01016,E2_T3,chỉ tiêu kinh tế,5,triệu đồng,unknown,"Khi phát sinh chi phí nâng, hạ container tại cảng vào ban đêm, đối với các lô hàng từ 3 container trở lên thực hiện tại cùng một cảng và trong cùng một ngày, tổng giá trị hóa đơn thường vượt mức 5 triệu đồng."""""""
+UVN_BIZ_article-01017_1,article-01017,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cổ đông lớn nắm hơn 45% vốn Cổ phiếuVCG của Tổng công ty cổ phần Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex) đã giảm sàn 2 phiên liên tiếp, dư mua giá sàn hàng chục triệu đơn vị."
+UVN_BIZ_article-01017_1,article-01017,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cổ đông lớn nắm hơn 45% vốn Cổ phiếuVCG của Tổng công ty cổ phần Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex) đã giảm sàn 2 phiên liên tiếp, dư mua giá sàn hàng chục triệu đơn vị."
+UVN_BIZ_article-01017_1,article-01017,E2_T3,doanh thu,45,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cổ đông lớn nắm hơn 45% vốn Cổ phiếuVCG của Tổng công ty cổ phần Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex) đã giảm sàn 2 phiên liên tiếp, dư mua giá sàn hàng chục triệu đơn vị."
+UVN_BIZ_article-01017_2,article-01017,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Không chỉ dừng lại ở trục cao tốc Bắc - Nam,doanh nghiệpcòn tham gia nhiều dự án giao thông quan trọng khác như Vành đai 3 TPHCM, cao tốc Biên Hòa - Vũng Tàu, cao tốc Tuyên Quang - Hà Giang, Cao tốc La Sơn - Hòa Liên; Cao tốc TPHCM - Long Thành; dự án Vành đai 4 vùng Thủ đô..."
+UVN_BIZ_article-01017_2,article-01017,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Không chỉ dừng lại ở trục cao tốc Bắc - Nam,doanh nghiệpcòn tham gia nhiều dự án giao thông quan trọng khác như Vành đai 3 TPHCM, cao tốc Biên Hòa - Vũng Tàu, cao tốc Tuyên Quang - Hà Giang, Cao tốc La Sơn - Hòa Liên; Cao tốc TPHCM - Long Thành; dự án Vành đai 4 vùng Thủ đô..."
+UVN_BIZ_article-01017_2,article-01017,E2_T3,lợi nhuận sau thuế,3.782,tỷ đồng,năm 2025,"Về kết quả kinh doanh, 9 tháng đầu năm 2025, Vinaconex đạt 3.782 tỷ đồng lợi nhuận sau thuế, gấp gần 5 lần cùng kỳ, vượt hơn 3 lần kế hoạch năm nhờ quý III ghi nhận đột biến đến từ việc chuyển nhượng khoản đầu tư tại công ty con."""""""
+UVN_BIZ_article-01018_1,article-01018,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Diễn biến giá nhập khẩu từ Singapore cho thấy giá xăng dầu trong nước nhiều khả năng sẽ bật tăng."
+UVN_BIZ_article-01018_1,article-01018,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Diễn biến giá nhập khẩu từ Singapore cho thấy giá xăng dầu trong nước nhiều khả năng sẽ bật tăng."
+UVN_BIZ_article-01018_1,article-01018,E2_T3,nhập khẩu,72.35,USD,unknown,"Ngày 27/1, giá nhập khẩu xăng RON 95 tại Singapore ở mức 72,35 USD/thùng, xăng RON 92 ở mức 70,21 USD/thùng, tăng khoảng 1 USD/thùng so với 7 ngày trước."""""""
+UVN_BIZ_article-01018_1,article-01018,E2_T4,nhập khẩu,70.21,USD,unknown,"Ngày 27/1, giá nhập khẩu xăng RON 95 tại Singapore ở mức 72,35 USD/thùng, xăng RON 92 ở mức 70,21 USD/thùng, tăng khoảng 1 USD/thùng so với 7 ngày trước."""""""
+UVN_BIZ_article-01018_1,article-01018,E2_T5,nhập khẩu,1,USD,unknown,"Ngày 27/1, giá nhập khẩu xăng RON 95 tại Singapore ở mức 72,35 USD/thùng, xăng RON 92 ở mức 70,21 USD/thùng, tăng khoảng 1 USD/thùng so với 7 ngày trước."""""""
+UVN_BIZ_article-01018_2,article-01018,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Ở lần điều chỉnh gần nhất ngày 22/1, giá xăng E5 RON 92 giảm 90 đồng/lít còn 18.280 đồng/lít; xăng RON 95 giảm 80 đồng/lít, còn 18.630 đồng/lít."
+UVN_BIZ_article-01018_2,article-01018,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Ở lần điều chỉnh gần nhất ngày 22/1, giá xăng E5 RON 92 giảm 90 đồng/lít còn 18.280 đồng/lít; xăng RON 95 giảm 80 đồng/lít, còn 18.630 đồng/lít."
+UVN_BIZ_article-01018_2,article-01018,E2_T3,giá dầu,3,%,unknown,"Trên thị trường quốc tế, ngày 27/1,giá dầutăng khoảng 3% do bão mùa đông làm gián đoạn khai thác, khiến sản lượng dầu thô và hoạt động xuất khẩu từ vùng Vịnh Mexico của Mỹ gần như tê liệt vào cuối tuần, theo Reuters."""""""
+UVN_BIZ_article-01019_1,article-01019,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Câu chuyện về lãi suất năm 2026 giờ đây không đơn thuần là các chỉ số kinh tế, mà là một bàn cờ thế phức tạp với những nước đi có thể thay đổi hoàn toàn cục diệntài chínhtoàn cầu."
+UVN_BIZ_article-01019_1,article-01019,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Câu chuyện về lãi suất năm 2026 giờ đây không đơn thuần là các chỉ số kinh tế, mà là một bàn cờ thế phức tạp với những nước đi có thể thay đổi hoàn toàn cục diệntài chínhtoàn cầu."
+UVN_BIZ_article-01019_1,article-01019,E2_T3,lãi suất,-1.75,điểm phần trăm,tháng 9/2024,"Ẩn số từ những lá phiếu ""quyền lực"" Theo phân tích mới nhất từ Reuters và Bankrate, dù Fed đã mạnh tay cắt giảm tổng cộng 1,75 điểm phần trăm kể từ tháng 9/2024, đưa lãi suất điều hành về mức 3,62%, nhưng con đường phía trước lại đầy sương mù."""""""
+UVN_BIZ_article-01019_1,article-01019,E2_T4,lãi suất,3.62,%,tháng 9/2024,"Ẩn số từ những lá phiếu ""quyền lực"" Theo phân tích mới nhất từ Reuters và Bankrate, dù Fed đã mạnh tay cắt giảm tổng cộng 1,75 điểm phần trăm kể từ tháng 9/2024, đưa lãi suất điều hành về mức 3,62%, nhưng con đường phía trước lại đầy sương mù."""""""
+UVN_BIZ_article-01019_2,article-01019,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Dự báo lãi suất năm 2026 đang chia rẽ sâu sắc giới quan sát."
+UVN_BIZ_article-01019_2,article-01019,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Dự báo lãi suất năm 2026 đang chia rẽ sâu sắc giới quan sát."
+UVN_BIZ_article-01019_2,article-01019,E2_T3,lãi suất,-0.75,điểm phần trăm,unknown,"Trong khi Bankrate kỳ vọng sẽ có thêm ba đợt cắt giảm với tổng mức 0,75 điểm phần trăm, đưa lãi suất về gần mức trước đại dịch, thìthị trường tài chínhvà chính nội bộ Fed lại tỏ ra thận trọng hơn nhiều."
+UVN_BIZ_article-01020_1,article-01020,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Kinh tế tầm thấp được kỳ vọng sẽ mang lại lợi ích thiết thực trong đời sống xã hội."
+UVN_BIZ_article-01020_1,article-01020,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Kinh tế tầm thấp được kỳ vọng sẽ mang lại lợi ích thiết thực trong đời sống xã hội."
+UVN_BIZ_article-01020_1,article-01020,E2_T3,chỉ tiêu kinh tế,37.41,%,unknown,"Quy mô thị trường logistics tầm thấp tăng từ 27,18 tỷ nhân dân tệ (2020) lên 58,18 tỷ nhân dân tệ (2023), tốc độ tăng trưởng đạt 37,41%."""""""
+UVN_BIZ_article-01021_1,article-01021,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Tuy nhiên, giới trẻ thường không mặn mà với 2 chữ ""kỷ luật"" này."
+UVN_BIZ_article-01021_1,article-01021,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Tuy nhiên, giới trẻ thường không mặn mà với 2 chữ ""kỷ luật"" này."
+UVN_BIZ_article-01021_1,article-01021,E2_T3,Lãi suất,18,%,unknown,"""Lãi suất thẻ tín dụng rất cao, có lúc 18% hay lên tới 20%."""""""
+UVN_BIZ_article-01021_1,article-01021,E2_T4,Lãi suất,20,%,unknown,"""Lãi suất thẻ tín dụng rất cao, có lúc 18% hay lên tới 20%."""""""
+UVN_BIZ_article-01021_2,article-01021,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Chiến lược cho nhà đầu tư ""tay mơ"" Warren Buffett là một thiên tài chọn cổ phiếu, nhưng ông không khuyên người thường làm như mình."
+UVN_BIZ_article-01021_2,article-01021,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Chiến lược cho nhà đầu tư ""tay mơ"" Warren Buffett là một thiên tài chọn cổ phiếu, nhưng ông không khuyên người thường làm như mình."
+UVN_BIZ_article-01021_2,article-01021,E2_T3,chỉ tiêu kinh tế,10,%,năm 2013,"Trong thư gửi cổ đông năm 2013, ông đưa ra một danh mục đầu tư mẫu mực cho người vợ của mình: 10% tiền mặt vào trái phiếu chính phủ ngắn hạn và 90% vào quỹ chỉ số S&P 500 chi phí thấp."""""""
+UVN_BIZ_article-01021_2,article-01021,E2_T4,chỉ tiêu kinh tế,90,%,năm 2013,"Trong thư gửi cổ đông năm 2013, ông đưa ra một danh mục đầu tư mẫu mực cho người vợ của mình: 10% tiền mặt vào trái phiếu chính phủ ngắn hạn và 90% vào quỹ chỉ số S&P 500 chi phí thấp."""""""
+UVN_BIZ_article-01022_1,article-01022,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Đây là kỹ thuật vô cùng tinh tế, đảm bảo lúa sấy khô mà hạt gạo không bị nứt, gãy, đạt phẩm chất cao, đáp ứng yêu cầu xuất khẩu."
+UVN_BIZ_article-01022_1,article-01022,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Đây là kỹ thuật vô cùng tinh tế, đảm bảo lúa sấy khô mà hạt gạo không bị nứt, gãy, đạt phẩm chất cao, đáp ứng yêu cầu xuất khẩu."
+UVN_BIZ_article-01022_1,article-01022,E2_T3,chỉ tiêu kinh tế,8,tấn,unknown,"Nhờ cải tiến của ông Năm Nhã, lò công suất 8 tấn có thể tăng lên 12 tấn, thời gian sấy giảm từ 12 tiếng xuống còn 8 tiếng."""""""
+UVN_BIZ_article-01022_1,article-01022,E2_T4,chỉ tiêu kinh tế,12,tấn,unknown,"Nhờ cải tiến của ông Năm Nhã, lò công suất 8 tấn có thể tăng lên 12 tấn, thời gian sấy giảm từ 12 tiếng xuống còn 8 tiếng."""""""
+UVN_BIZ_article-01023_1,article-01023,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Khi dòng tiền tìm nơi ""trú ẩn"" xanh Số liệu cho thấy, giới đầu tư đang ngày càng đặt niềm tin vào các công nghệ đã trưởng thành và có mô hìnhkinh doanhổn định."
+UVN_BIZ_article-01023_1,article-01023,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Khi dòng tiền tìm nơi ""trú ẩn"" xanh Số liệu cho thấy, giới đầu tư đang ngày càng đặt niềm tin vào các công nghệ đã trưởng thành và có mô hìnhkinh doanhổn định."
+UVN_BIZ_article-01023_1,article-01023,E2_T3,chỉ tiêu kinh tế,1.200,tỷ USD,unknown,"Trong tổng số vốn khổng lồ nói trên, khoảng 1.200 tỷ USD (30 triệu tỷ đồng) được rót vào năng lượng tái tạo và hệ thống lưới điện - 2 ""xương sống"" của nền kinh tế hiện đại."
+UVN_BIZ_article-01023_1,article-01023,E2_T4,chỉ tiêu kinh tế,893,tỷ USD,unknown,"Đáng chú ý, lĩnh vực giao thông điện hóa bao gồmxe điệnvà hạ tầng trạm sạc đã trở thành ngôi sao sáng khi thu hút tới 893 tỷ USD (hơn 22 triệu tỷ đồng), tăng trưởng mạnh mẽ nhờ nhu cầu bùng nổ tại châu Á và châu Âu."""""""
+UVN_BIZ_article-01023_2,article-01023,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Nhìn vào bức tranh địa lý, châu Á - Thái Bình Dương tiếp tục là ""công xưởng xanh"" của thế giới khi chiếm gần một nửa tổng chi tiêu toàn cầu."
+UVN_BIZ_article-01023_2,article-01023,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Nhìn vào bức tranh địa lý, châu Á - Thái Bình Dương tiếp tục là ""công xưởng xanh"" của thế giới khi chiếm gần một nửa tổng chi tiêu toàn cầu."
+UVN_BIZ_article-01023_2,article-01023,E2_T3,chỉ tiêu kinh tế,800,tỷ USD,unknown,"Dẫn đầu vẫn là Trung Quốc với khoản đầu tư lên tới 800 tỷ USD, chiếm 34% toàn cầu."
+UVN_BIZ_article-01023_2,article-01023,E2_T4,chỉ tiêu kinh tế,34,%,unknown,"Dẫn đầu vẫn là Trung Quốc với khoản đầu tư lên tới 800 tỷ USD, chiếm 34% toàn cầu."
+UVN_BIZ_article-01023_2,article-01023,E2_T5,GDP,4,%,unknown,"Dù con số này có giảm nhẹ do các điều chỉnh chính sách nội bộ, nhưng Trung Quốc vẫn là quốc gia duy nhất trong top 10 dành tới hơn 4% GDP cho chuyển dịch năng lượng."""""""
+UVN_BIZ_article-01024_1,article-01024,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Dầu ngọt chứa ít lưu huỳnh (dưới 1%), là nguyên liệu lý tưởng để sản xuất nhiên liệu sạch, đáp ứng các tiêu chuẩn môi trường khắt khe."
+UVN_BIZ_article-01024_1,article-01024,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Dầu ngọt chứa ít lưu huỳnh (dưới 1%), là nguyên liệu lý tưởng để sản xuất nhiên liệu sạch, đáp ứng các tiêu chuẩn môi trường khắt khe."
+UVN_BIZ_article-01024_1,article-01024,E2_T3,doanh thu,1,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Dầu ngọt chứa ít lưu huỳnh (dưới 1%), là nguyên liệu lý tưởng để sản xuất nhiên liệu sạch, đáp ứng các tiêu chuẩn môi trường khắt khe."
+UVN_BIZ_article-01024_1,article-01024,E2_T4,chỉ tiêu kinh tế,-2,%,unknown,"Trong khi đó, dầu chua chứa nhiều lưu huỳnh (trên 1-2%), buộc các nhà máy phải đầu tư thêm công nghệ để ""làm ngọt"", tức loại bỏ tạp chất, khiến chi phí đội lên đáng kể."
+UVN_BIZ_article-01024_2,article-01024,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Khi Mỹ bùng nổ dầu đá phiến (dầu nhẹ), các nhà máy này không thể chuyển đổi công nghệ trong một sớm một chiều."
+UVN_BIZ_article-01024_2,article-01024,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Khi Mỹ bùng nổ dầu đá phiến (dầu nhẹ), các nhà máy này không thể chuyển đổi công nghệ trong một sớm một chiều."
+UVN_BIZ_article-01024_2,article-01024,E2_T3,chỉ tiêu kinh tế,70,%,unknown,"Theo AFPM, 70% công suất lọc dầu của Mỹ hoạt động hiệu quả nhất với dầu nặng."
+UVN_BIZ_article-01026_1,article-01026,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Tại sao các doanh nghiệp này lại quyết liệt ""mang chuông đi đánh xứ người""?"
+UVN_BIZ_article-01026_1,article-01026,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Tại sao các doanh nghiệp này lại quyết liệt ""mang chuông đi đánh xứ người""?"
+UVN_BIZ_article-01026_1,article-01026,E2_T3,lợi nhuận,29,%,unknown,"Theo phân tích của Wired và Jalopnik, biên lợi nhuận của pin sản xuất tại nước ngoài đạt khoảng 29%, hấp dẫn hơn nhiều so với mức 23% khi sản xuất trong nước."""""""
+UVN_BIZ_article-01026_1,article-01026,E2_T4,lợi nhuận,23,%,unknown,"Theo phân tích của Wired và Jalopnik, biên lợi nhuận của pin sản xuất tại nước ngoài đạt khoảng 29%, hấp dẫn hơn nhiều so với mức 23% khi sản xuất trong nước."""""""
+UVN_BIZ_article-01028_1,article-01028,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Khi đăng ký gói tài khoản phù hợp, doanh nghiệp có thể được miễn tới 100% nhiều loại phí giao dịch thiết yếu, bao gồm: Mở và sử dụng tài khoản thanh toán số đẹp - số ngắn; chuyển tiền nội địa VND; phí duy trì và giao dịch online trên VietinBank eFAST; chuyển tiền ngoại tệ và chuyển tiền biên mậu; dịch vụ QRPay."
+UVN_BIZ_article-01028_1,article-01028,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Khi đăng ký gói tài khoản phù hợp, doanh nghiệp có thể được miễn tới 100% nhiều loại phí giao dịch thiết yếu, bao gồm: Mở và sử dụng tài khoản thanh toán số đẹp - số ngắn; chuyển tiền nội địa VND; phí duy trì và giao dịch online trên VietinBank eFAST; chuyển tiền ngoại tệ và chuyển tiền biên mậu; dịch vụ QRPay."
+UVN_BIZ_article-01028_1,article-01028,E2_T3,doanh thu,100,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Khi đăng ký gói tài khoản phù hợp, doanh nghiệp có thể được miễn tới 100% nhiều loại phí giao dịch thiết yếu, bao gồm: Mở và sử dụng tài khoản thanh toán số đẹp - số ngắn; chuyển tiền nội địa VND; phí duy trì và giao dịch online trên VietinBank eFAST; chuyển tiền ngoại tệ và chuyển tiền biên mậu; dịch vụ QRPay."
+UVN_BIZ_article-01030_1,article-01030,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Ngân hàng chúng tôi coi tài chính xanh và ESG là định hướng chiến lược dài hạn, nhằm dẫn dắt dòng vốn tư nhân chảy vào các lĩnh vực ưu tiên của Chính phủ, như năng lượng tái tạo, hạ tầng xanh và giao thông xanh."
+UVN_BIZ_article-01030_1,article-01030,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Ngân hàng chúng tôi coi tài chính xanh và ESG là định hướng chiến lược dài hạn, nhằm dẫn dắt dòng vốn tư nhân chảy vào các lĩnh vực ưu tiên của Chính phủ, như năng lượng tái tạo, hạ tầng xanh và giao thông xanh."
+UVN_BIZ_article-01030_1,article-01030,E2_T3,Dư nợ,65.000,tỷ đồng,unknown,"Dư nợ tín dụng xanh và đầu tư ESG của ngân hàng đạt khoảng 65.000 tỷ đồng/năm (chiếm 8% tổng dư nợ), trong đó năng lượng tái tạo, năng lượng sạch chiếm 45.700 tỷ đồng."""""""
+UVN_BIZ_article-01030_1,article-01030,E2_T4,Dư nợ,8,%,unknown,"Dư nợ tín dụng xanh và đầu tư ESG của ngân hàng đạt khoảng 65.000 tỷ đồng/năm (chiếm 8% tổng dư nợ), trong đó năng lượng tái tạo, năng lượng sạch chiếm 45.700 tỷ đồng."""""""
+UVN_BIZ_article-01030_1,article-01030,E2_T5,Dư nợ,45.700,tỷ đồng,unknown,"Dư nợ tín dụng xanh và đầu tư ESG của ngân hàng đạt khoảng 65.000 tỷ đồng/năm (chiếm 8% tổng dư nợ), trong đó năng lượng tái tạo, năng lượng sạch chiếm 45.700 tỷ đồng."""""""
+UVN_BIZ_article-01030_2,article-01030,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Đối với tiểu thương và hộ kinh doanh cá thể, chúng tôi cung cấp các giải pháp số hóa trên nền tảng di động; ứng dụng quản lý bán hàng thông minh, hỗ trợ quản lý đơn hàng, xuất hóa đơn điện tử, kê khai thuế ngay trên điện thoại; loa thanh toán..."
+UVN_BIZ_article-01030_2,article-01030,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Đối với tiểu thương và hộ kinh doanh cá thể, chúng tôi cung cấp các giải pháp số hóa trên nền tảng di động; ứng dụng quản lý bán hàng thông minh, hỗ trợ quản lý đơn hàng, xuất hóa đơn điện tử, kê khai thuế ngay trên điện thoại; loa thanh toán..."
+UVN_BIZ_article-01030_2,article-01030,E2_T3,GDP,60,%,unknown,"Giải pháp này giúp mở rộng khả năng tiếp cận vốn chính thức cho hàng trăm nghìn doanh nghiệp tư nhân nhỏ, vốn là khu vực tạo ra hơn 60% việc làm và đóng góp lớn cho GDP."""""""
+UVN_BIZ_article-01032_1,article-01032,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Toàn cảnh phiên họp của Ủy ban 1 sáng 10/10 (Ảnh: Hải Long)."
+UVN_BIZ_article-01032_1,article-01032,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Toàn cảnh phiên họp của Ủy ban 1 sáng 10/10 (Ảnh: Hải Long)."
+UVN_BIZ_article-01032_1,article-01032,E2_T3,chỉ tiêu kinh tế,700,tỷ USD,năm 2035,"Chia sẻ tại phiên họp của Ủy ban 1, ông Trần Anh Tuấn, Phó chủ tịch và CEO Mạng lưới UAV Việt Nam, cho biết trên thế giới, ngành hàng không tầm thấp được định giá dự kiến đạt khoảng 700 tỷ USD vào năm 2035."
+UVN_BIZ_article-01032_1,article-01032,E2_T4,chỉ tiêu kinh tế,71,tỷ USD,năm 2023,"Tại Trung Quốc, lĩnh vực này đang tăng trưởng nhanh chóng với quy mô ước đạt 71 tỷ USD vào năm 2023, tăng hơn 33,8% so với năm trước."""""""
+UVN_BIZ_article-01032_1,article-01032,E2_T5,chỉ tiêu kinh tế,33.8,%,năm 2023,"Tại Trung Quốc, lĩnh vực này đang tăng trưởng nhanh chóng với quy mô ước đạt 71 tỷ USD vào năm 2023, tăng hơn 33,8% so với năm trước."""""""
+UVN_BIZ_article-01033_1,article-01033,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Giá vàng trong nước tăng cùng chiều với thị trường quốc tế."
+UVN_BIZ_article-01033_1,article-01033,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Giá vàng trong nước tăng cùng chiều với thị trường quốc tế."
+UVN_BIZ_article-01033_1,article-01033,E2_T3,chỉ tiêu kinh tế,5.080,USD,unknown,"Theo đó, giá vàng thế giới đang giao dịch quanh 5.080 USD/ounce, tăng 73 USD so với trước đó và liên tục thiết lập kỷ lục mới."
+UVN_BIZ_article-01033_1,article-01033,E2_T4,chỉ tiêu kinh tế,73,USD,unknown,"Theo đó, giá vàng thế giới đang giao dịch quanh 5.080 USD/ounce, tăng 73 USD so với trước đó và liên tục thiết lập kỷ lục mới."
+UVN_BIZ_article-01033_1,article-01033,E2_T5,chỉ tiêu kinh tế,164,triệu đồng,unknown,"Quy đổi theotỷ giáchưa tính thuế, phí, giá vàng thế giới tương đương 164 triệu đồng/lượng."""""""
+UVN_BIZ_article-01033_2,article-01033,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Theo Reuters, giá vàng tăng tiếp tục được đẩy nhanh hơn sau những lời đe dọa áp thuế mới từ Tổng thống Mỹ Donald Trump vào cuối tuần qua."
+UVN_BIZ_article-01033_2,article-01033,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Theo Reuters, giá vàng tăng tiếp tục được đẩy nhanh hơn sau những lời đe dọa áp thuế mới từ Tổng thống Mỹ Donald Trump vào cuối tuần qua."
+UVN_BIZ_article-01033_2,article-01033,E2_T3,nhập khẩu,100,%,unknown,"Chỉ vài ngày sau khi gây áp lực tương tự lên một số đồng minh châu Âu phản đối tuyên bố chủ quyền của Mỹ đối với Greenland trước khi nhượng bộ, ông Donald Trump hôm thứ 7 tuyên bố sẽ áp thuế 100% đối với hàng nhập khẩu từ Canada vào Mỹ nếu Ottawa và Trung Quốc đạt được một thỏa thuận thương mại."
+UVN_BIZ_article-01034_1,article-01034,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Trong khi các mô hình kinh tế học truyền thống đang nhấp nháy đèn vàng cảnh báo về sự chậm lại, thì những người cầm cân nảy mực cho chính sách kinh tế Mỹ lại đang vẽ ra một viễn cảnh rực rỡ chưa từng có."
+UVN_BIZ_article-01034_1,article-01034,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Trong khi các mô hình kinh tế học truyền thống đang nhấp nháy đèn vàng cảnh báo về sự chậm lại, thì những người cầm cân nảy mực cho chính sách kinh tế Mỹ lại đang vẽ ra một viễn cảnh rực rỡ chưa từng có."
+UVN_BIZ_article-01034_1,article-01034,E2_T3,chỉ tiêu kinh tế,30.000,tỷ USD,unknown,"Câu chuyện bắt đầu từ nhận định đầy tự tin của ông Howard Lutnick, Bộ trưởng Thương mại Mỹ, khi ông cho rằng cỗ xe kinh tế trị giá 30.000 tỷ USD này không chỉ chạy tốt mà còn sắp tăng tốc lên mức kỷ lục."
+UVN_BIZ_article-01034_1,article-01034,E2_T4,chỉ tiêu kinh tế,-5,%,năm 2026,"Chính quyền Tổng thống Donald Trump đang dự báo nền kinh tế Mỹ sẽ đạt mức tăng trưởng 4-5% trong năm 2026 (Ảnh: FT)."""""""
+UVN_BIZ_article-01034_2,article-01034,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Nếu như trong giai đoạn bình thường, mức tăng trưởng 2-3% đã được coi là lý tưởng cho một nền kinh tế phát triển như Mỹ, thì năm 2026 đang được kỳ vọng sẽ phá vỡ mọi quy luật đó."
+UVN_BIZ_article-01034_2,article-01034,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Nếu như trong giai đoạn bình thường, mức tăng trưởng 2-3% đã được coi là lý tưởng cho một nền kinh tế phát triển như Mỹ, thì năm 2026 đang được kỳ vọng sẽ phá vỡ mọi quy luật đó."
+UVN_BIZ_article-01034_2,article-01034,E2_T3,doanh thu,-3,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Nếu như trong giai đoạn bình thường, mức tăng trưởng 2-3% đã được coi là lý tưởng cho một nền kinh tế phát triển như Mỹ, thì năm 2026 đang được kỳ vọng sẽ phá vỡ mọi quy luật đó."
+UVN_BIZ_article-01034_2,article-01034,E2_T4,GDP,5,%,quý I/2026,"Tại Davos, Bộ trưởng Thương mại Howard Lutnick đã không ngần ngại đưa ra con số dự báo GDP quý I/2026 sẽ vượt mốc 5%."
+UVN_BIZ_article-01034_2,article-01034,E2_T5,lãi suất,6,%,unknown,"Thậm chí, vị này còn khẳng định nếu lãi suất hạ nhiệt, con số 6% là hoàn toàn trong tầm tay."""""""
+UVN_BIZ_article-01035_1,article-01035,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cùng với 2 mã này, nhiều cổ phiếu khác ngành dầu khí cũng tăng mạnh trong phiên, như BSR, OIL, PVB, PVC, PVS."
+UVN_BIZ_article-01035_1,article-01035,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Cùng với 2 mã này, nhiều cổ phiếu khác ngành dầu khí cũng tăng mạnh trong phiên, như BSR, OIL, PVB, PVC, PVS."
+UVN_BIZ_article-01035_1,article-01035,E2_T3,chỉ tiêu kinh tế,-5.57,%,unknown,"Trong đó, cổ phiếu VHM giảm sàn còn VIC giảm 5,57%, tác động tiêu cực nhất đến chỉ số."""""""
+UVN_BIZ_article-01038_1,article-01038,E2_T1,doanh thu,28.766,tỷ đồng,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Tại Thanh Hóa, FLC đề xuất nghiên cứu và triển khai lại Khu đô thị Hoàng Long trên diện tích hơn 286ha bị bỏ hoang nhiều năm."
+UVN_BIZ_article-01038_1,article-01038,E2_T2,doanh thu,-16,%,Quý III/2023,"Dưới đây là một số ví dụ chuẩn:
+---
+Ví dụ 1:
+Đoạn văn: ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""
+Kết quả:
+[
+  {""indicator"": ""doanh thu Hòa Phát"", ""value"": ""28766"", ""unit"": ""tỷ đồng"", ""period"": ""Quý III/2023"", ""evidence"": ""Quý III/2023, Hòa Phát đạt doanh thu 28.766 tỷ đồng, giảm 16% so với cùng kỳ năm trước.""},
+  {""indicator"": ""tăng trưởng doanh thu Hòa Phát"", ""value"": ""-16"", ""unit"": ""%"", ""period"": ""Quý III/2023 so với cùng kỳ năm trước"", ""evidence"": ""giảm 16% so với cùng kỳ năm trước.""}
+]
+
+Ví dụ 2:
+Đoạn văn: ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""
+Kết quả:
+[
+  {""indicator"": ""dư nợ tín dụng nền kinh tế"", ""value"": ""13.5"", ""unit"": ""triệu tỷ đồng"", ""period"": ""unknown"", ""evidence"": ""Dư nợ tín dụng đối với nền kinh tế đạt trên 13,5 triệu tỷ đồng.""}
+]
+---
+
+Hãy trích xuất cho đoạn văn sau:
+""""""Tại Thanh Hóa, FLC đề xuất nghiên cứu và triển khai lại Khu đô thị Hoàng Long trên diện tích hơn 286ha bị bỏ hoang nhiều năm."
+UVN_BIZ_article-01038_1,article-01038,E2_T3,lợi nhuận sau thuế,635,tỷ đồng,năm 2025,"Theo thông tin từ doanh nghiệp, năm 2025, lợi nhuận sau thuế của mảng kinh doanh bất động sản ước tính đạt khoảng 635 tỷ đồng, tăng đáng kể so với khoản lỗ 123 tỷ đồng của năm 2024."""""""
+UVN_BIZ_article-01038_1,article-01038,E2_T4,lợi nhuận sau thuế,123,tỷ đồng,năm 2025,"Theo thông tin từ doanh nghiệp, năm 2025, lợi nhuận sau thuế của mảng kinh doanh bất động sản ước tính đạt khoảng 635 tỷ đồng, tăng đáng kể so với khoản lỗ 123 tỷ đồng của năm 2024."""""""
